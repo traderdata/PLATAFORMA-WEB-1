@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{41600BA7-F820-4EAF-ADA7-8DA8130BEF95}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Startup</RootNamespace>
+    <AssemblyName>StartupTerminalWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SharpZipLib">
+      <HintPath>..\Bin\Debug\SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Presentation" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DefaultGraficoAgora2.aspx" />
+    <Content Include="DefaultGraficoAgora.aspx" />
+    <Content Include="DefaultGraficoHomolog.html" />
+    <Content Include="DefaultGraficoHSBC.aspx" />
+    <Content Include="DefaultGraficoIntegracaoSTech.aspx" />
+    <Content Include="DefaultGraficoIntegracaoVersaoCompleta.aspx" />
+    <Content Include="DefaultGraficoInterbolsa.aspx" />
+    <Content Include="DefaultGraficoVarejo.aspx" />
+    <Content Include="DefaultGraficoVotorantim.aspx" />
+    <Content Include="DefaultGraficoDiferencial.aspx" />
+    <None Include="Service References\FreeStockChartSVC\configuration91.svcinfo" />
+    <None Include="Service References\FreeStockChartSVC\configuration.svcinfo" />
+    <None Include="Service References\FreeStockChartSVC\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="DefaultSite.aspx" />
+    <Content Include="DefaultTOV.aspx" />
+    <None Include="Service References\FreeStockChartSVC\service.wsdl" />
+    <None Include="Service References\FreeStockChartSVC\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FreeStockChartSVC\Startup.FreeStockChartSVC.AreaTrabalhoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FreeStockChartSVC\Startup.FreeStockChartSVC.ConfiguracaoPadraoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FreeStockChartSVC\Startup.FreeStockChartSVC.GraficoDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FreeStockChartSVC\Startup.FreeStockChartSVC.TemplateDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <Content Include="Monitor.aspx" />
+    <Content Include="SplashScreenFator.js" />
+    <Content Include="Teste.aspx" />
+    <Content Include="VisualizarAnalise.aspx" />
+    <Content Include="images\freePlus5.1_transp.png" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <None Include="Service References\FreeStockChartSVC\Startup.FreeStockChartSVC.AnaliseCompartilhadaDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FreeStockChartSVC\Startup.FreeStockChartSVC.InteresseAnaliseDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FreeStockChartSVC\Startup.FreeStockChartSVC.UsuarioDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FreeStockChartSVC\Traderdata.Server.App.TerminalWeb.DTO.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FreeStockChartSVC\www.traderdata.com.br.wsdl" />
+    <None Include="Service References\FreeStockChartSVC\www.traderdata.com.br.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DefaultGraficoAgora2.aspx.cs">
+      <DependentUpon>DefaultGraficoAgora2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultGraficoAgora2.aspx.designer.cs">
+      <DependentUpon>DefaultGraficoAgora2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultGraficoAgora.aspx.cs">
+      <DependentUpon>DefaultGraficoAgora.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultGraficoAgora.aspx.designer.cs">
+      <DependentUpon>DefaultGraficoAgora.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultGraficoHSBC.aspx.cs">
+      <DependentUpon>DefaultGraficoHSBC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultGraficoHSBC.aspx.designer.cs">
+      <DependentUpon>DefaultGraficoHSBC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultGraficoIntegracaoSTech.aspx.cs">
+      <DependentUpon>DefaultGraficoIntegracaoSTech.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultGraficoIntegracaoSTech.aspx.designer.cs">
+      <DependentUpon>DefaultGraficoIntegracaoSTech.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultGraficoIntegracaoVersaoCompleta.aspx.cs">
+      <DependentUpon>DefaultGraficoIntegracaoVersaoCompleta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultGraficoIntegracaoVersaoCompleta.aspx.designer.cs">
+      <DependentUpon>DefaultGraficoIntegracaoVersaoCompleta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultGraficoInterbolsa.aspx.cs">
+      <DependentUpon>DefaultGraficoInterbolsa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultGraficoInterbolsa.aspx.designer.cs">
+      <DependentUpon>DefaultGraficoInterbolsa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultGraficoVarejo.aspx.cs">
+      <DependentUpon>DefaultGraficoVarejo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultGraficoVarejo.aspx.designer.cs">
+      <DependentUpon>DefaultGraficoVarejo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultGraficoVotorantim.aspx.cs">
+      <DependentUpon>DefaultGraficoVotorantim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultGraficoVotorantim.aspx.designer.cs">
+      <DependentUpon>DefaultGraficoVotorantim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultGraficoDiferencial.aspx.cs">
+      <DependentUpon>DefaultGraficoDiferencial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultGraficoDiferencial.aspx.designer.cs">
+      <DependentUpon>DefaultGraficoDiferencial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultSite.aspx.cs">
+      <DependentUpon>DefaultSite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultSite.aspx.designer.cs">
+      <DependentUpon>DefaultSite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultTOV.aspx.cs">
+      <DependentUpon>DefaultTOV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultTOV.aspx.designer.cs">
+      <DependentUpon>DefaultTOV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor.aspx.cs">
+      <DependentUpon>Monitor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor.aspx.designer.cs">
+      <DependentUpon>Monitor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\FreeStockChartSVC\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Teste.aspx.cs">
+      <DependentUpon>Teste.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teste.aspx.designer.cs">
+      <DependentUpon>Teste.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizarAnalise.aspx.cs">
+      <DependentUpon>VisualizarAnalise.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VisualizarAnalise.aspx.designer.cs">
+      <DependentUpon>VisualizarAnalise.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Util\GZipMessageEncoderFactory.cs" />
+    <Compile Include="Util\GZipMessageEncodingBindingElement.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\ServiceWCF.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\FreeStockChartSVC\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="SplashScreenFator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5078</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

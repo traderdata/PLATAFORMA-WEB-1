@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D72A7B90-47C0-4801-919D-49332A02E401}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IntegracaoHB</RootNamespace>
+    <AssemblyName>IntegracaoHB</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IntegracaoCodepe.aspx" />
+    <Content Include="IntegracaoCorval.aspx" />
+    <Content Include="IntegracaoFator.aspx" />
+    <Content Include="IntegracaoGraficoTraderdata.aspx" />
+    <Content Include="IntegracaoHSBC.aspx" />
+    <Content Include="IntegracaoInterbolsa.aspx" />
+    <Content Include="IntegracaoInvestbolsa.aspx" />
+    <Content Include="IntegracaoTitulo.aspx" />
+    <Content Include="IntegracaoTOV.aspx" />
+    <Content Include="IntegracaoVotorantimGrafico.aspx" />
+    <Content Include="IntegracaoXP.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IntegracaoCodepe.aspx.cs">
+      <DependentUpon>IntegracaoCodepe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IntegracaoCodepe.aspx.designer.cs">
+      <DependentUpon>IntegracaoCodepe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IntegracaoCorval.aspx.cs">
+      <DependentUpon>IntegracaoCorval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IntegracaoCorval.aspx.designer.cs">
+      <DependentUpon>IntegracaoCorval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IntegracaoFator.aspx.cs">
+      <DependentUpon>IntegracaoFator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IntegracaoFator.aspx.designer.cs">
+      <DependentUpon>IntegracaoFator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IntegracaoGraficoTraderdata.aspx.cs">
+      <DependentUpon>IntegracaoGraficoTraderdata.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IntegracaoGraficoTraderdata.aspx.designer.cs">
+      <DependentUpon>IntegracaoGraficoTraderdata.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IntegracaoHSBC.aspx.cs">
+      <DependentUpon>IntegracaoHSBC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IntegracaoHSBC.aspx.designer.cs">
+      <DependentUpon>IntegracaoHSBC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IntegracaoInterbolsa.aspx.cs">
+      <DependentUpon>IntegracaoInterbolsa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IntegracaoInterbolsa.aspx.designer.cs">
+      <DependentUpon>IntegracaoInterbolsa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IntegracaoInvestbolsa.aspx.cs">
+      <DependentUpon>IntegracaoInvestbolsa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IntegracaoInvestbolsa.aspx.designer.cs">
+      <DependentUpon>IntegracaoInvestbolsa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IntegracaoTitulo.aspx.cs">
+      <DependentUpon>IntegracaoTitulo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IntegracaoTitulo.aspx.designer.cs">
+      <DependentUpon>IntegracaoTitulo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IntegracaoTOV.aspx.cs">
+      <DependentUpon>IntegracaoTOV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IntegracaoTOV.aspx.designer.cs">
+      <DependentUpon>IntegracaoTOV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IntegracaoVotorantimGrafico.aspx.cs">
+      <DependentUpon>IntegracaoVotorantimGrafico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IntegracaoVotorantimGrafico.aspx.designer.cs">
+      <DependentUpon>IntegracaoVotorantimGrafico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IntegracaoXP.aspx.cs">
+      <DependentUpon>IntegracaoXP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IntegracaoXP.aspx.designer.cs">
+      <DependentUpon>IntegracaoXP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5083</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

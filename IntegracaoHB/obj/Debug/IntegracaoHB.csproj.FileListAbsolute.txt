@@ -1,0 +1,15 @@
+C:\Backup\Projetos2010\CLIENT\IntegracaoHB\obj\Debug\ResolveAssemblyReference.cache
+C:\Backup\Projetos2010\CLIENT\IntegracaoHB\bin\IntegracaoHB.dll
+C:\Backup\Projetos2010\CLIENT\IntegracaoHB\bin\IntegracaoHB.pdb
+C:\Backup\Projetos2010\CLIENT\IntegracaoHB\obj\Debug\IntegracaoHB.dll
+C:\Backup\Projetos2010\CLIENT\IntegracaoHB\obj\Debug\IntegracaoHB.pdb
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\IntegracaoHB\bin\IntegracaoHB.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\IntegracaoHB\bin\IntegracaoHB.pdb
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\IntegracaoHB\obj\Debug\IntegracaoHB.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\IntegracaoHB\obj\Debug\IntegracaoHB.pdb
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\IntegracaoHB\obj\Debug\IntegracaoHB.csprojResolveAssemblyReference.cache
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\IntegracaoHB\bin\IntegracaoHB.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\IntegracaoHB\bin\IntegracaoHB.pdb
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\IntegracaoHB\obj\Debug\IntegracaoHB.csprojResolveAssemblyReference.cache
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\IntegracaoHB\obj\Debug\IntegracaoHB.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\IntegracaoHB\obj\Debug\IntegracaoHB.pdb

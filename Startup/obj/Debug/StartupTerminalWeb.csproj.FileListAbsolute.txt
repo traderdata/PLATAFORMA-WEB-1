@@ -1,0 +1,26 @@
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Startup\bin\StartupTerminalWeb.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Startup\bin\StartupTerminalWeb.pdb
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Startup\bin\SharpZipLib.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Startup\obj\Debug\ResolveAssemblyReference.cache
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Startup\obj\Debug\StartupTerminalWeb.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Startup\obj\Debug\StartupTerminalWeb.pdb
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Startup\obj\Debug\SplashScreenFator.baml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Startup\obj\Debug\StartupTerminalWeb_MarkupCompile.cache
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Startup\obj\Debug\StartupTerminalWeb.g.resources
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Startup\bin\StartupTerminalWeb.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Startup\bin\StartupTerminalWeb.pdb
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Startup\obj\Debug\SplashScreenFator.baml
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Startup\obj\Debug\StartupTerminalWeb_MarkupCompile.cache
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Startup\obj\Debug\StartupTerminalWeb.g.resources
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Startup\obj\Debug\StartupTerminalWeb.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Startup\obj\Debug\StartupTerminalWeb.pdb
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Startup\obj\Debug\StartupTerminalWeb.csprojResolveAssemblyReference.cache
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Startup\bin\StartupTerminalWeb.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Startup\bin\StartupTerminalWeb.pdb
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Startup\bin\SharpZipLib.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Startup\obj\Debug\StartupTerminalWeb.csprojResolveAssemblyReference.cache
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Startup\obj\Debug\SplashScreenFator.baml
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Startup\obj\Debug\StartupTerminalWeb_MarkupCompile.cache
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Startup\obj\Debug\StartupTerminalWeb.g.resources
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Startup\obj\Debug\StartupTerminalWeb.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Startup\obj\Debug\StartupTerminalWeb.pdb

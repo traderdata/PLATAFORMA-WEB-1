@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="www.traderdata.com.br" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="www.traderdata.com.br" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="www.traderdata.com.br/Imports">
+      <xsd:import namespace="www.traderdata.com.br" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/Traderdata.Server.App.TerminalWeb.DTO" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ITerminalWeb_Connect_InputMessage">
+    <wsdl:part name="parameters" element="tns:Connect" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_Connect_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConnectResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_Ping_InputMessage">
+    <wsdl:part name="parameters" element="tns:Ping" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_Ping_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PingResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaConfiguracaoPadraoPorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaConfiguracaoPadraoPorId" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaConfiguracaoPadraoPorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaConfiguracaoPadraoPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_SalvaConfiguracaoPadrao_InputMessage">
+    <wsdl:part name="parameters" element="tns:SalvaConfiguracaoPadrao" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_SalvaConfiguracaoPadrao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SalvaConfiguracaoPadraoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaAreaTrabalhoPorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaAreaTrabalhoPorId" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaAreaTrabalhoPorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaAreaTrabalhoPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_SalvarGrafico_InputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarGrafico" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_SalvarGrafico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarGraficoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaGrafico_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaGrafico" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaGrafico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaGraficoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_SalvaAreaTrabalho_InputMessage">
+    <wsdl:part name="parameters" element="tns:SalvaAreaTrabalho" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_SalvaAreaTrabalho_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SalvaAreaTrabalhoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_SalvaTemplate_InputMessage">
+    <wsdl:part name="parameters" element="tns:SalvaTemplate" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_SalvaTemplate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SalvaTemplateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_ExcluiTemplate_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExcluiTemplate" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_ExcluiTemplate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExcluiTemplateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaTemplatePorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaTemplatePorId" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaTemplatePorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaTemplatePorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaTemplatesPorClientId_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaTemplatesPorClientId" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaTemplatesPorClientId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaTemplatesPorClientIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_AutenticaCorretora_InputMessage">
+    <wsdl:part name="parameters" element="tns:AutenticaCorretora" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_AutenticaCorretora_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AutenticaCorretoraResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaTodosPublicadores_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaTodosPublicadores" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaTodosPublicadores_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaTodosPublicadoresResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_SalvaInteresseAnalise_InputMessage">
+    <wsdl:part name="parameters" element="tns:SalvaInteresseAnalise" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_SalvaInteresseAnalise_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SalvaInteresseAnaliseResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaInteressePorUsuarioId_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaInteressePorUsuarioId" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaInteressePorUsuarioId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaInteressePorUsuarioIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaUsuarioPorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaUsuarioPorId" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaUsuarioPorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaUsuarioPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_ImportarAnalise_InputMessage">
+    <wsdl:part name="parameters" element="tns:ImportarAnalise" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_ImportarAnalise_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ImportarAnaliseResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaUltimaAnalise_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaUltimaAnalise" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaUltimaAnalise_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaUltimaAnaliseResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaAnalisePorFiltro_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaAnalisePorFiltro" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaAnalisePorFiltro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaAnalisePorFiltroResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaAnaliseComInteresse_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaAnaliseComInteresse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaAnaliseComInteresse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaAnaliseComInteresseResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaTodasAnalises_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaTodasAnalises" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaTodasAnalises_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaTodasAnalisesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaAnalisePorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaAnalisePorId" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_RetornaAnalisePorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaAnalisePorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_SalvarAnaliseCompartilhada_InputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAnaliseCompartilhada" />
+  </wsdl:message>
+  <wsdl:message name="ITerminalWeb_SalvarAnaliseCompartilhada_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarAnaliseCompartilhadaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ITerminalWeb">
+    <wsdl:operation name="Connect">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/Connect" message="tns:ITerminalWeb_Connect_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/ConnectResponse" message="tns:ITerminalWeb_Connect_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Ping">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/Ping" message="tns:ITerminalWeb_Ping_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/PingResponse" message="tns:ITerminalWeb_Ping_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornaConfiguracaoPadraoPorId">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaConfiguracaoPadraoPorId" message="tns:ITerminalWeb_RetornaConfiguracaoPadraoPorId_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaConfiguracaoPadraoPorIdResponse" message="tns:ITerminalWeb_RetornaConfiguracaoPadraoPorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SalvaConfiguracaoPadrao">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/SalvaConfiguracaoPadrao" message="tns:ITerminalWeb_SalvaConfiguracaoPadrao_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/SalvaConfiguracaoPadraoResponse" message="tns:ITerminalWeb_SalvaConfiguracaoPadrao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornaAreaTrabalhoPorId">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaAreaTrabalhoPorId" message="tns:ITerminalWeb_RetornaAreaTrabalhoPorId_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaAreaTrabalhoPorIdResponse" message="tns:ITerminalWeb_RetornaAreaTrabalhoPorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SalvarGrafico">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/SalvarGrafico" message="tns:ITerminalWeb_SalvarGrafico_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/SalvarGraficoResponse" message="tns:ITerminalWeb_SalvarGrafico_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornaGrafico">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaGrafico" message="tns:ITerminalWeb_RetornaGrafico_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaGraficoResponse" message="tns:ITerminalWeb_RetornaGrafico_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SalvaAreaTrabalho">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/SalvaAreaTrabalho" message="tns:ITerminalWeb_SalvaAreaTrabalho_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/SalvaAreaTrabalhoResponse" message="tns:ITerminalWeb_SalvaAreaTrabalho_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SalvaTemplate">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/SalvaTemplate" message="tns:ITerminalWeb_SalvaTemplate_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/SalvaTemplateResponse" message="tns:ITerminalWeb_SalvaTemplate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExcluiTemplate">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/ExcluiTemplate" message="tns:ITerminalWeb_ExcluiTemplate_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/ExcluiTemplateResponse" message="tns:ITerminalWeb_ExcluiTemplate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornaTemplatePorId">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaTemplatePorId" message="tns:ITerminalWeb_RetornaTemplatePorId_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaTemplatePorIdResponse" message="tns:ITerminalWeb_RetornaTemplatePorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornaTemplatesPorClientId">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaTemplatesPorClientId" message="tns:ITerminalWeb_RetornaTemplatesPorClientId_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaTemplatesPorClientIdResponse" message="tns:ITerminalWeb_RetornaTemplatesPorClientId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AutenticaCorretora">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/AutenticaCorretora" message="tns:ITerminalWeb_AutenticaCorretora_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/AutenticaCorretoraResponse" message="tns:ITerminalWeb_AutenticaCorretora_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornaTodosPublicadores">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaTodosPublicadores" message="tns:ITerminalWeb_RetornaTodosPublicadores_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaTodosPublicadoresResponse" message="tns:ITerminalWeb_RetornaTodosPublicadores_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SalvaInteresseAnalise">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/SalvaInteresseAnalise" message="tns:ITerminalWeb_SalvaInteresseAnalise_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/SalvaInteresseAnaliseResponse" message="tns:ITerminalWeb_SalvaInteresseAnalise_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornaInteressePorUsuarioId">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaInteressePorUsuarioId" message="tns:ITerminalWeb_RetornaInteressePorUsuarioId_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaInteressePorUsuarioIdResponse" message="tns:ITerminalWeb_RetornaInteressePorUsuarioId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornaUsuarioPorId">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaUsuarioPorId" message="tns:ITerminalWeb_RetornaUsuarioPorId_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaUsuarioPorIdResponse" message="tns:ITerminalWeb_RetornaUsuarioPorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ImportarAnalise">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/ImportarAnalise" message="tns:ITerminalWeb_ImportarAnalise_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/ImportarAnaliseResponse" message="tns:ITerminalWeb_ImportarAnalise_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornaUltimaAnalise">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaUltimaAnalise" message="tns:ITerminalWeb_RetornaUltimaAnalise_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaUltimaAnaliseResponse" message="tns:ITerminalWeb_RetornaUltimaAnalise_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornaAnalisePorFiltro">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaAnalisePorFiltro" message="tns:ITerminalWeb_RetornaAnalisePorFiltro_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaAnalisePorFiltroResponse" message="tns:ITerminalWeb_RetornaAnalisePorFiltro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornaAnaliseComInteresse">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaAnaliseComInteresse" message="tns:ITerminalWeb_RetornaAnaliseComInteresse_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaAnaliseComInteresseResponse" message="tns:ITerminalWeb_RetornaAnaliseComInteresse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornaTodasAnalises">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaTodasAnalises" message="tns:ITerminalWeb_RetornaTodasAnalises_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaTodasAnalisesResponse" message="tns:ITerminalWeb_RetornaTodasAnalises_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornaAnalisePorId">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaAnalisePorId" message="tns:ITerminalWeb_RetornaAnalisePorId_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/RetornaAnalisePorIdResponse" message="tns:ITerminalWeb_RetornaAnalisePorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SalvarAnaliseCompartilhada">
+      <wsdl:input wsaw:Action="www.traderdata.com.br/ITerminalWeb/SalvarAnaliseCompartilhada" message="tns:ITerminalWeb_SalvarAnaliseCompartilhada_InputMessage" />
+      <wsdl:output wsaw:Action="www.traderdata.com.br/ITerminalWeb/SalvarAnaliseCompartilhadaResponse" message="tns:ITerminalWeb_SalvarAnaliseCompartilhada_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

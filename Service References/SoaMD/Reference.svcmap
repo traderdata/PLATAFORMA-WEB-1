@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4dbad642-0c10-4553-b919-19039fe9ffa0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8787/md/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="www.traderdata.com.br.wsdl" MetadataType="Wsdl" ID="e0502776-d41a-488d-bc6c-cd1d007d99ee" SourceId="1" SourceUrl="http://localhost:8787/md/mex" />
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="27450577-8c9b-4017-9ffa-8ced3cef80bd" SourceId="1" SourceUrl="http://localhost:8787/md/mex" />
+    <MetadataFile FileName="www.traderdata.com.br.xsd" MetadataType="Schema" ID="d65195eb-0a82-4fae-a534-41187c158193" SourceId="1" SourceUrl="http://localhost:8787/md/mex" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="e877ced2-a582-4079-bc03-a64af864a44e" SourceId="1" SourceUrl="http://localhost:8787/md/mex" />
+    <MetadataFile FileName="Arrays1.xsd" MetadataType="Schema" ID="4fbfe729-adf0-478f-9627-6d2ae99901cc" SourceId="1" SourceUrl="http://localhost:8787/md/mex" />
+    <MetadataFile FileName="Traderdata.Server.Core.DTO.xsd" MetadataType="Schema" ID="3567adb5-898f-4f96-9fe7-2c1538b8ff84" SourceId="1" SourceUrl="http://localhost:8787/md/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

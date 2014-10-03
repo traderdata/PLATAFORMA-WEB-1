@@ -1,0 +1,73 @@
+﻿<UserControl xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:Grafico="clr-namespace:Traderdata.Client.Componente.GraficoSL.Main;assembly=TD.COMP.GRAFICOSL"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation" 
+    xmlns:uriMapper="clr-namespace:System.Windows.Navigation;assembly=System.Windows.Controls.Navigation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+    xmlns:controlsToolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Toolkit"
+    x:Class="Traderdata.Client.TerminalWEB.Site"
+    xmlns:C1="clr-namespace:C1.Silverlight;assembly=C1.Silverlight"
+     SizeChanged="UserControl_SizeChanged">
+
+    <UserControl.Resources>
+        <Style TargetType="Image" x:Key="MenuIcon">
+            <Setter Property="Width" Value="13"/>
+            <Setter Property="Height" Value="13"/>
+            <Setter Property="Margin" Value="5 0 0 0"/>
+        </Style>
+    </UserControl.Resources>
+    
+    
+    <Grid x:Name="LayoutRoot" Style="{StaticResource LayoutRootGridStyle}" Loaded="LayoutRoot_Loaded">
+        
+        <!-- Painel Carregando -->
+        <Border Name="pnlCarregando" Visibility="Collapsed" CornerRadius="5" BorderBrush="Gray" BorderThickness="2" Canvas.ZIndex="5" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFFFFFF" />
+                    <GradientStop Color="Silver" Offset="1" />
+                </LinearGradientBrush> 
+            </Border.Background>
+            <StackPanel>
+                <Image HorizontalAlignment="Center" Width="220" Height="60" Source="/Images/logo_painel.png"/>
+                <TextBlock Foreground="Black" HorizontalAlignment="Center" Margin="0,0,0,7" Name="lblCarregando">Carregando dados...</TextBlock>
+            </StackPanel>
+        </Border>
+        
+        <!-- Painel Simpletrader -->
+        <Grid VerticalAlignment="Top" Name="stpSimpletrader" Height="30" Visibility="Collapsed" Background="Black" Grid.ColumnSpan="2" >
+            <StackPanel HorizontalAlignment="Left" FlowDirection="LeftToRight" Orientation="Horizontal">
+                <Button Name="btnSalvar" Width="100" Height="20" Margin="0,0,0,0" Click="btnSalvar_Click" >Salvar Grafico</Button>
+                <CheckBox Name="chkSalvarAutomatico" Width="80" Margin="0,10,0,0" VerticalAlignment="Center" Height="30" Foreground="White" IsChecked="True">Auto-Save</CheckBox>                
+                <Button Name="btnAplicarTemplate" Width="150" Height="20" Margin="5,0,0,0" Click="btnAplicarTemplate_Click">Aplicar Template</Button>
+                <Button Name="btnExcluirTemplate" Width="150" Height="20" Margin="5,0,0,0" Click="btnExcluirTemplate_Click">Excluir Template</Button>
+                <Button Name="btnSalvarTemplate" Width="150" Height="20" Margin="5,0,0,0" Click="btnSalvarTemplate_Click">Salvar Template</Button>
+                <Button Name="btnConfiguracao" Width="150" Height="20" Margin="5,0,0,0" Click="btnConfiguracao_Click">Configuração Geral</Button>
+            </StackPanel>            
+        </Grid>
+        
+        <!-- Menu -->
+        <Grid VerticalAlignment="Top" Name="stpMenu33" Height="30" Visibility="Visible">
+            <C1:C1Menu x:Name="menu" Cursor="Hand" >
+                <C1:C1MenuItem FontWeight="Bold" Header="Deseja abrir outros ativos? Clique aqui e utilize a nossa ferramenta GRATUITAMENTE!" VerticalAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FlowDirection="LeftToRight" Click="C1MenuItem_Click" >
+                </C1:C1MenuItem>
+                <C1:C1MenuItem Margin="30,0,0,0" FontWeight="Bold" Header="Deseja ver alertas de oportunidades de compra e venda? Clique aqui e utilize a nossa ferramenta GRATUITAMENTE!" VerticalAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" Click="C1MenuItem_Click_1" FlowDirection="LeftToRight" >
+                </C1:C1MenuItem>
+            </C1:C1Menu>
+            
+        </Grid>
+
+        <!-- Tab -->
+        <sdk:TabControl Visibility="Collapsed" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,30,0,0" Name="tabControl" SelectionChanged="tabControl_SelectionChanged">
+        </sdk:TabControl>
+        <Grid Canvas.ZIndex="4" Margin="0,0,0,0" Background="Black" Name="bkcImage" Visibility="Collapsed">
+            <Image Cursor="Hand" Source="/Images/principal_background.png" HorizontalAlignment="Center" VerticalAlignment="Center" ></Image>
+            <Image Cursor="Hand" Name="imgLogoTD" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="127" Height="30" Source="/Images/logo.png" Margin="0,0,21,16" MouseLeftButtonDown="imgLogoTD_MouseLeftButtonDown"/>
+        </Grid>
+        <Grid Canvas.ZIndex="4" Margin="0,0,0,0" Background="Black" Name="graficoAvulso" Visibility="Collapsed" >            
+        </Grid>
+            
+    </Grid>
+</UserControl>

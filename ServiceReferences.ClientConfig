@@ -1,0 +1,45 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_IMarketDataTerminalWeb" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+                <binding name="BasicHttpBinding_ILogService" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="Transport" />
+                </binding>
+                <binding name="BasicHttpBinding_ILogService1" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+                <binding name="BasicHttpBinding_IService" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="Transport" />
+                </binding>
+                <binding name="BasicHttpBinding_IService1" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:8787/md" binding="basicHttpBinding"
+                bindingConfiguration="BasicHttpBinding_IMarketDataTerminalWeb"
+                contract="SoaMD.IMarketDataTerminalWeb" name="BasicHttpBinding_IMarketDataTerminalWeb" />
+            <endpoint address="https://clientdata.traderdata.com.br/log/service.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_ILogService"
+                contract="LogSVC.ILogService" name="BasicHttpBinding_ILogService" />
+            <endpoint address="http://amazona-1at0s1j/log/service.svc" binding="basicHttpBinding"
+                bindingConfiguration="BasicHttpBinding_ILogService1" contract="LogSVC.ILogService"
+                name="BasicHttpBinding_ILogService1" />
+            <endpoint address="https://lbclient.traderdata.com.br/traderdatalite/TraderdataLiteService.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IService"
+                contract="TraderdataDesktop.IService" name="BasicHttpBinding_IService" />
+            <endpoint address="http://54.204.8.192/traderdatalite/TraderdataLiteService.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IService1"
+                contract="TraderdataDesktop.IService" name="BasicHttpBinding_IService1" />
+        </client>
+    </system.serviceModel>
+</configuration>

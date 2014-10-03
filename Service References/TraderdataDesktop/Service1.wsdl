@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="BasicHttpBinding_IService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://54.204.8.192/traderdatalite/TraderdataLiteService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://54.204.8.192/traderdatalite/TraderdataLiteService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://54.204.8.192/traderdatalite/TraderdataLiteService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Traderdata.Server.App.TraderdataLite.DTO" />
+      <xsd:import schemaLocation="http://54.204.8.192/traderdatalite/TraderdataLiteService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService_UpdateNumeroVisualizacaoAnalise_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateNumeroVisualizacaoAnalise" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateNumeroVisualizacaoAnalise_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateNumeroVisualizacaoAnaliseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_InserirAnalise_InputMessage">
+    <wsdl:part name="parameters" element="tns:InserirAnalise" />
+  </wsdl:message>
+  <wsdl:message name="IService_InserirAnalise_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InserirAnaliseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeleteAnalise_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAnalise" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeleteAnalise_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAnaliseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetAllAnalises_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAnalises" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetAllAnalises_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAnalisesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetAllLikes_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllLikes" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetAllLikes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllLikesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_InsertLike_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertLike" />
+  </wsdl:message>
+  <wsdl:message name="IService_InsertLike_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertLikeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetLikeStat_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLikeStat" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetLikeStat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLikeStatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_HabilitaDesabilitaAlera_InputMessage">
+    <wsdl:part name="parameters" element="tns:HabilitaDesabilitaAlera" />
+  </wsdl:message>
+  <wsdl:message name="IService_HabilitaDesabilitaAlera_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HabilitaDesabilitaAleraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_InserirAlerta_InputMessage">
+    <wsdl:part name="parameters" element="tns:InserirAlerta" />
+  </wsdl:message>
+  <wsdl:message name="IService_InserirAlerta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InserirAlertaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_EditaComentario_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditaComentario" />
+  </wsdl:message>
+  <wsdl:message name="IService_EditaComentario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditaComentarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ExcluirAlerta_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExcluirAlerta" />
+  </wsdl:message>
+  <wsdl:message name="IService_ExcluirAlerta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExcluirAlertaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetAllAlertas_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAlertas" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetAllAlertas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAlertasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_InsereCarteira_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsereCarteira" />
+  </wsdl:message>
+  <wsdl:message name="IService_InsereCarteira_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsereCarteiraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ExcluiCarteira_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExcluiCarteira" />
+  </wsdl:message>
+  <wsdl:message name="IService_ExcluiCarteira_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExcluiCarteiraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_EditaCarteira_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditaCarteira" />
+  </wsdl:message>
+  <wsdl:message name="IService_EditaCarteira_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditaCarteiraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_RetornaCarteiraPorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaCarteiraPorId" />
+  </wsdl:message>
+  <wsdl:message name="IService_RetornaCarteiraPorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaCarteiraPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_RetornaCarteirasPorUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaCarteirasPorUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IService_RetornaCarteirasPorUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetornaCarteirasPorUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_InserirOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:InserirOrder" />
+  </wsdl:message>
+  <wsdl:message name="IService_InserirOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InserirOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetAllOrders_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllOrders" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetAllOrders_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllOrdersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetLastVersion_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastVersion" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetLastVersion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetWebfeederServer_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWebfeederServer" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetWebfeederServer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWebfeederServerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ReturnClientIP_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReturnClientIP" />
+  </wsdl:message>
+  <wsdl:message name="IService_ReturnClientIP_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReturnClientIPResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_InserirContaDemo_InputMessage">
+    <wsdl:part name="parameters" element="tns:InserirContaDemo" />
+  </wsdl:message>
+  <wsdl:message name="IService_InserirContaDemo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InserirContaDemoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetContasDemo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetContasDemo" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetContasDemo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetContasDemoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetBrokers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBrokers" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetBrokers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBrokersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IService_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetLoginByCPF_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLoginByCPF" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetLoginByCPF_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLoginByCPFResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ReenviaSenhaPorCPF_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReenviaSenhaPorCPF" />
+  </wsdl:message>
+  <wsdl:message name="IService_ReenviaSenhaPorCPF_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReenviaSenhaPorCPFResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ReenviaSenhaPorLogin_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReenviaSenhaPorLogin" />
+  </wsdl:message>
+  <wsdl:message name="IService_ReenviaSenhaPorLogin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReenviaSenhaPorLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_InserirUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:InserirUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IService_InserirUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InserirUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_InserirUsuarioIntegracaoCorretora_InputMessage">
+    <wsdl:part name="parameters" element="tns:InserirUsuarioIntegracaoCorretora" />
+  </wsdl:message>
+  <wsdl:message name="IService_InserirUsuarioIntegracaoCorretora_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InserirUsuarioIntegracaoCorretoraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ExisteCPF_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExisteCPF" />
+  </wsdl:message>
+  <wsdl:message name="IService_ExisteCPF_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExisteCPFResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ExisteEmail_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExisteEmail" />
+  </wsdl:message>
+  <wsdl:message name="IService_ExisteEmail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExisteEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetTokenByUserLogin_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTokenByUserLogin" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetTokenByUserLogin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTokenByUserLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_RefreshTokenByUserLogin_InputMessage">
+    <wsdl:part name="parameters" element="tns:RefreshTokenByUserLogin" />
+  </wsdl:message>
+  <wsdl:message name="IService_RefreshTokenByUserLogin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RefreshTokenByUserLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ValidateToken_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateToken" />
+  </wsdl:message>
+  <wsdl:message name="IService_ValidateToken_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetExchangesUserHasAccess_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetExchangesUserHasAccess" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetExchangesUserHasAccess_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetExchangesUserHasAccessResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetExperts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetExperts" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetExperts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetExpertsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_InsertLiveAccount_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertLiveAccount" />
+  </wsdl:message>
+  <wsdl:message name="IService_InsertLiveAccount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertLiveAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetLiveAccounts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLiveAccounts" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetLiveAccounts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLiveAccountsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService">
+    <wsdl:operation name="UpdateNumeroVisualizacaoAnalise">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateNumeroVisualizacaoAnalise" message="tns:IService_UpdateNumeroVisualizacaoAnalise_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdateNumeroVisualizacaoAnaliseResponse" message="tns:IService_UpdateNumeroVisualizacaoAnalise_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InserirAnalise">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/InserirAnalise" message="tns:IService_InserirAnalise_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/InserirAnaliseResponse" message="tns:IService_InserirAnalise_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAnalise">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/DeleteAnalise" message="tns:IService_DeleteAnalise_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/DeleteAnaliseResponse" message="tns:IService_DeleteAnalise_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAnalises">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetAllAnalises" message="tns:IService_GetAllAnalises_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetAllAnalisesResponse" message="tns:IService_GetAllAnalises_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllLikes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetAllLikes" message="tns:IService_GetAllLikes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetAllLikesResponse" message="tns:IService_GetAllLikes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertLike">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/InsertLike" message="tns:IService_InsertLike_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/InsertLikeResponse" message="tns:IService_InsertLike_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLikeStat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetLikeStat" message="tns:IService_GetLikeStat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetLikeStatResponse" message="tns:IService_GetLikeStat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HabilitaDesabilitaAlera">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/HabilitaDesabilitaAlera" message="tns:IService_HabilitaDesabilitaAlera_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/HabilitaDesabilitaAleraResponse" message="tns:IService_HabilitaDesabilitaAlera_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InserirAlerta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/InserirAlerta" message="tns:IService_InserirAlerta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/InserirAlertaResponse" message="tns:IService_InserirAlerta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditaComentario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/EditaComentario" message="tns:IService_EditaComentario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/EditaComentarioResponse" message="tns:IService_EditaComentario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExcluirAlerta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ExcluirAlerta" message="tns:IService_ExcluirAlerta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ExcluirAlertaResponse" message="tns:IService_ExcluirAlerta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAlertas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetAllAlertas" message="tns:IService_GetAllAlertas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetAllAlertasResponse" message="tns:IService_GetAllAlertas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsereCarteira">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/InsereCarteira" message="tns:IService_InsereCarteira_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/InsereCarteiraResponse" message="tns:IService_InsereCarteira_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExcluiCarteira">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ExcluiCarteira" message="tns:IService_ExcluiCarteira_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ExcluiCarteiraResponse" message="tns:IService_ExcluiCarteira_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditaCarteira">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/EditaCarteira" message="tns:IService_EditaCarteira_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/EditaCarteiraResponse" message="tns:IService_EditaCarteira_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornaCarteiraPorId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/RetornaCarteiraPorId" message="tns:IService_RetornaCarteiraPorId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/RetornaCarteiraPorIdResponse" message="tns:IService_RetornaCarteiraPorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornaCarteirasPorUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/RetornaCarteirasPorUsuario" message="tns:IService_RetornaCarteirasPorUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/RetornaCarteirasPorUsuarioResponse" message="tns:IService_RetornaCarteirasPorUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InserirOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/InserirOrder" message="tns:IService_InserirOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/InserirOrderResponse" message="tns:IService_InserirOrder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllOrders">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetAllOrders" message="tns:IService_GetAllOrders_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetAllOrdersResponse" message="tns:IService_GetAllOrders_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastVersion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetLastVersion" message="tns:IService_GetLastVersion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetLastVersionResponse" message="tns:IService_GetLastVersion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWebfeederServer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetWebfeederServer" message="tns:IService_GetWebfeederServer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetWebfeederServerResponse" message="tns:IService_GetWebfeederServer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReturnClientIP">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ReturnClientIP" message="tns:IService_ReturnClientIP_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ReturnClientIPResponse" message="tns:IService_ReturnClientIP_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InserirContaDemo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/InserirContaDemo" message="tns:IService_InserirContaDemo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/InserirContaDemoResponse" message="tns:IService_InserirContaDemo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetContasDemo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetContasDemo" message="tns:IService_GetContasDemo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetContasDemoResponse" message="tns:IService_GetContasDemo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBrokers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetBrokers" message="tns:IService_GetBrokers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetBrokersResponse" message="tns:IService_GetBrokers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/Login" message="tns:IService_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/LoginResponse" message="tns:IService_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLoginByCPF">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetLoginByCPF" message="tns:IService_GetLoginByCPF_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetLoginByCPFResponse" message="tns:IService_GetLoginByCPF_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReenviaSenhaPorCPF">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ReenviaSenhaPorCPF" message="tns:IService_ReenviaSenhaPorCPF_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ReenviaSenhaPorCPFResponse" message="tns:IService_ReenviaSenhaPorCPF_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReenviaSenhaPorLogin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ReenviaSenhaPorLogin" message="tns:IService_ReenviaSenhaPorLogin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ReenviaSenhaPorLoginResponse" message="tns:IService_ReenviaSenhaPorLogin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InserirUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/InserirUsuario" message="tns:IService_InserirUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/InserirUsuarioResponse" message="tns:IService_InserirUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InserirUsuarioIntegracaoCorretora">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/InserirUsuarioIntegracaoCorretora" message="tns:IService_InserirUsuarioIntegracaoCorretora_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/InserirUsuarioIntegracaoCorretoraResponse" message="tns:IService_InserirUsuarioIntegracaoCorretora_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExisteCPF">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ExisteCPF" message="tns:IService_ExisteCPF_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ExisteCPFResponse" message="tns:IService_ExisteCPF_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExisteEmail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ExisteEmail" message="tns:IService_ExisteEmail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ExisteEmailResponse" message="tns:IService_ExisteEmail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTokenByUserLogin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetTokenByUserLogin" message="tns:IService_GetTokenByUserLogin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetTokenByUserLoginResponse" message="tns:IService_GetTokenByUserLogin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RefreshTokenByUserLogin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/RefreshTokenByUserLogin" message="tns:IService_RefreshTokenByUserLogin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/RefreshTokenByUserLoginResponse" message="tns:IService_RefreshTokenByUserLogin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateToken">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ValidateToken" message="tns:IService_ValidateToken_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ValidateTokenResponse" message="tns:IService_ValidateToken_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetExchangesUserHasAccess">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetExchangesUserHasAccess" message="tns:IService_GetExchangesUserHasAccess_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetExchangesUserHasAccessResponse" message="tns:IService_GetExchangesUserHasAccess_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetExperts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetExperts" message="tns:IService_GetExperts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetExpertsResponse" message="tns:IService_GetExperts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertLiveAccount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/InsertLiveAccount" message="tns:IService_InsertLiveAccount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/InsertLiveAccountResponse" message="tns:IService_InsertLiveAccount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLiveAccounts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetLiveAccounts" message="tns:IService_GetLiveAccounts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetLiveAccountsResponse" message="tns:IService_GetLiveAccounts_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService" type="tns:IService">
+    <wsp:PolicyReference URI="#BasicHttpBinding_IService_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UpdateNumeroVisualizacaoAnalise">
+      <soap:operation soapAction="http://tempuri.org/IService/UpdateNumeroVisualizacaoAnalise" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirAnalise">
+      <soap:operation soapAction="http://tempuri.org/IService/InserirAnalise" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAnalise">
+      <soap:operation soapAction="http://tempuri.org/IService/DeleteAnalise" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAnalises">
+      <soap:operation soapAction="http://tempuri.org/IService/GetAllAnalises" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllLikes">
+      <soap:operation soapAction="http://tempuri.org/IService/GetAllLikes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLike">
+      <soap:operation soapAction="http://tempuri.org/IService/InsertLike" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLikeStat">
+      <soap:operation soapAction="http://tempuri.org/IService/GetLikeStat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HabilitaDesabilitaAlera">
+      <soap:operation soapAction="http://tempuri.org/IService/HabilitaDesabilitaAlera" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirAlerta">
+      <soap:operation soapAction="http://tempuri.org/IService/InserirAlerta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditaComentario">
+      <soap:operation soapAction="http://tempuri.org/IService/EditaComentario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExcluirAlerta">
+      <soap:operation soapAction="http://tempuri.org/IService/ExcluirAlerta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAlertas">
+      <soap:operation soapAction="http://tempuri.org/IService/GetAllAlertas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsereCarteira">
+      <soap:operation soapAction="http://tempuri.org/IService/InsereCarteira" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExcluiCarteira">
+      <soap:operation soapAction="http://tempuri.org/IService/ExcluiCarteira" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditaCarteira">
+      <soap:operation soapAction="http://tempuri.org/IService/EditaCarteira" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornaCarteiraPorId">
+      <soap:operation soapAction="http://tempuri.org/IService/RetornaCarteiraPorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornaCarteirasPorUsuario">
+      <soap:operation soapAction="http://tempuri.org/IService/RetornaCarteirasPorUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirOrder">
+      <soap:operation soapAction="http://tempuri.org/IService/InserirOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllOrders">
+      <soap:operation soapAction="http://tempuri.org/IService/GetAllOrders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastVersion">
+      <soap:operation soapAction="http://tempuri.org/IService/GetLastVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWebfeederServer">
+      <soap:operation soapAction="http://tempuri.org/IService/GetWebfeederServer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReturnClientIP">
+      <soap:operation soapAction="http://tempuri.org/IService/ReturnClientIP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirContaDemo">
+      <soap:operation soapAction="http://tempuri.org/IService/InserirContaDemo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetContasDemo">
+      <soap:operation soapAction="http://tempuri.org/IService/GetContasDemo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBrokers">
+      <soap:operation soapAction="http://tempuri.org/IService/GetBrokers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/IService/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLoginByCPF">
+      <soap:operation soapAction="http://tempuri.org/IService/GetLoginByCPF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReenviaSenhaPorCPF">
+      <soap:operation soapAction="http://tempuri.org/IService/ReenviaSenhaPorCPF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReenviaSenhaPorLogin">
+      <soap:operation soapAction="http://tempuri.org/IService/ReenviaSenhaPorLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirUsuario">
+      <soap:operation soapAction="http://tempuri.org/IService/InserirUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirUsuarioIntegracaoCorretora">
+      <soap:operation soapAction="http://tempuri.org/IService/InserirUsuarioIntegracaoCorretora" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExisteCPF">
+      <soap:operation soapAction="http://tempuri.org/IService/ExisteCPF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExisteEmail">
+      <soap:operation soapAction="http://tempuri.org/IService/ExisteEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTokenByUserLogin">
+      <soap:operation soapAction="http://tempuri.org/IService/GetTokenByUserLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RefreshTokenByUserLogin">
+      <soap:operation soapAction="http://tempuri.org/IService/RefreshTokenByUserLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateToken">
+      <soap:operation soapAction="http://tempuri.org/IService/ValidateToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExchangesUserHasAccess">
+      <soap:operation soapAction="http://tempuri.org/IService/GetExchangesUserHasAccess" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExperts">
+      <soap:operation soapAction="http://tempuri.org/IService/GetExperts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLiveAccount">
+      <soap:operation soapAction="http://tempuri.org/IService/InsertLiveAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLiveAccounts">
+      <soap:operation soapAction="http://tempuri.org/IService/GetLiveAccounts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UpdateNumeroVisualizacaoAnalise">
+      <soap:operation soapAction="http://tempuri.org/IService/UpdateNumeroVisualizacaoAnalise" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirAnalise">
+      <soap:operation soapAction="http://tempuri.org/IService/InserirAnalise" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAnalise">
+      <soap:operation soapAction="http://tempuri.org/IService/DeleteAnalise" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAnalises">
+      <soap:operation soapAction="http://tempuri.org/IService/GetAllAnalises" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllLikes">
+      <soap:operation soapAction="http://tempuri.org/IService/GetAllLikes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLike">
+      <soap:operation soapAction="http://tempuri.org/IService/InsertLike" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLikeStat">
+      <soap:operation soapAction="http://tempuri.org/IService/GetLikeStat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HabilitaDesabilitaAlera">
+      <soap:operation soapAction="http://tempuri.org/IService/HabilitaDesabilitaAlera" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirAlerta">
+      <soap:operation soapAction="http://tempuri.org/IService/InserirAlerta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditaComentario">
+      <soap:operation soapAction="http://tempuri.org/IService/EditaComentario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExcluirAlerta">
+      <soap:operation soapAction="http://tempuri.org/IService/ExcluirAlerta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAlertas">
+      <soap:operation soapAction="http://tempuri.org/IService/GetAllAlertas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsereCarteira">
+      <soap:operation soapAction="http://tempuri.org/IService/InsereCarteira" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExcluiCarteira">
+      <soap:operation soapAction="http://tempuri.org/IService/ExcluiCarteira" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditaCarteira">
+      <soap:operation soapAction="http://tempuri.org/IService/EditaCarteira" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornaCarteiraPorId">
+      <soap:operation soapAction="http://tempuri.org/IService/RetornaCarteiraPorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornaCarteirasPorUsuario">
+      <soap:operation soapAction="http://tempuri.org/IService/RetornaCarteirasPorUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirOrder">
+      <soap:operation soapAction="http://tempuri.org/IService/InserirOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllOrders">
+      <soap:operation soapAction="http://tempuri.org/IService/GetAllOrders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastVersion">
+      <soap:operation soapAction="http://tempuri.org/IService/GetLastVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWebfeederServer">
+      <soap:operation soapAction="http://tempuri.org/IService/GetWebfeederServer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReturnClientIP">
+      <soap:operation soapAction="http://tempuri.org/IService/ReturnClientIP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirContaDemo">
+      <soap:operation soapAction="http://tempuri.org/IService/InserirContaDemo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetContasDemo">
+      <soap:operation soapAction="http://tempuri.org/IService/GetContasDemo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBrokers">
+      <soap:operation soapAction="http://tempuri.org/IService/GetBrokers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/IService/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLoginByCPF">
+      <soap:operation soapAction="http://tempuri.org/IService/GetLoginByCPF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReenviaSenhaPorCPF">
+      <soap:operation soapAction="http://tempuri.org/IService/ReenviaSenhaPorCPF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReenviaSenhaPorLogin">
+      <soap:operation soapAction="http://tempuri.org/IService/ReenviaSenhaPorLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirUsuario">
+      <soap:operation soapAction="http://tempuri.org/IService/InserirUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserirUsuarioIntegracaoCorretora">
+      <soap:operation soapAction="http://tempuri.org/IService/InserirUsuarioIntegracaoCorretora" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExisteCPF">
+      <soap:operation soapAction="http://tempuri.org/IService/ExisteCPF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExisteEmail">
+      <soap:operation soapAction="http://tempuri.org/IService/ExisteEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTokenByUserLogin">
+      <soap:operation soapAction="http://tempuri.org/IService/GetTokenByUserLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RefreshTokenByUserLogin">
+      <soap:operation soapAction="http://tempuri.org/IService/RefreshTokenByUserLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateToken">
+      <soap:operation soapAction="http://tempuri.org/IService/ValidateToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExchangesUserHasAccess">
+      <soap:operation soapAction="http://tempuri.org/IService/GetExchangesUserHasAccess" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExperts">
+      <soap:operation soapAction="http://tempuri.org/IService/GetExperts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLiveAccount">
+      <soap:operation soapAction="http://tempuri.org/IService/InsertLiveAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLiveAccounts">
+      <soap:operation soapAction="http://tempuri.org/IService/GetLiveAccounts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="BasicHttpBinding_IService" binding="tns:BasicHttpBinding_IService">
+      <soap:address location="https://lbclient.traderdata.com.br/traderdatalite/TraderdataLiteService.svc" />
+    </wsdl:port>
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://54.204.8.192/traderdatalite/TraderdataLiteService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

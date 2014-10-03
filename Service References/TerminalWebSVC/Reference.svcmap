@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="51200aac-e5fe-4bb4-be4d-01bb1452e40f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8787/terminal-web/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="www.traderdata.com.br1.wsdl" MetadataType="Wsdl" ID="8d2ea0e0-106e-4818-a732-00965f3701f8" SourceId="1" SourceUrl="http://localhost:8787/terminal-web/mex" />
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="4c755c8a-185f-424c-8443-488c1261ea5a" SourceId="1" SourceUrl="http://localhost:8787/terminal-web/mex" />
+    <MetadataFile FileName="www.traderdata.com.br1.xsd" MetadataType="Schema" ID="3f08d1d4-3f00-4b0b-9679-76189e9a2fad" SourceId="1" SourceUrl="http://localhost:8787/terminal-web/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="d9c62f64-b2aa-4b7c-899c-aa2d78a81066" SourceId="1" SourceUrl="http://localhost:8787/terminal-web/mex" />
+    <MetadataFile FileName="Traderdata.Server.App.TerminalWeb.DTO1.xsd" MetadataType="Schema" ID="f6e503a9-28b5-41aa-97bb-04e713993999" SourceId="1" SourceUrl="http://localhost:8787/terminal-web/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[Startup.csproj]
+SCC_Aux_Path = "\\192.168.1.100\vss3"
+SCC_Project_Name = "$/CLIENT/APP/FREESTOCKCHARTPLUS/FreeStockChartPlus/Startup", NAEAAAAA
+
+[StartupTerminalWeb.csproj]
+SCC_Aux_Path = "\\192.168.1.100\vss3"
+SCC_Project_Name = "$/CLIENT/APP/TerminalWeb2011/TerminalWeb/TERMINAL-WEB-2011/Startup", LSIAAAAA

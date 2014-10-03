@@ -1,0 +1,100 @@
+﻿<basics:ChildWindow
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:basics="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+	xmlns:inputToolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Input.Toolkit"
+	x:Class="Traderdata.Client.Componente.GraficoSL.Configuracao.ConfiguraSerie"
+    HasCloseButton="False" BorderBrush="{x:Null}"
+	Width="285" Height="275">
+
+    <Border CornerRadius="5" BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Border.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF181919" />
+                <GradientStop Color="#FF45464b" Offset="1" />
+            </LinearGradientBrush>
+        </Border.Background>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="38" />
+                <RowDefinition Height="324*" />
+                <RowDefinition Height="38" />
+            </Grid.RowDefinitions>
+
+            <!-- Stack Panel Cabeçalho -->
+            <StackPanel Height="35" VerticalAlignment="Top"  Orientation="Horizontal" Grid.Row="0">
+                <StackPanel.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF4C4C4C"/>
+                        <GradientStop Color="#FF333538" Offset="1"/>
+                        <GradientStop Color="#FF3C3D3F" Offset="0.394"/>
+                        <GradientStop Color="#FF151516" Offset="0.417"/>
+                    </LinearGradientBrush>
+                </StackPanel.Background>
+                <TextBlock TextAlignment="Center" Foreground="White" Width="246" Margin="0,8,0,0" FontSize="13.333"><Run Text="Configurações da Série"/></TextBlock>
+            </StackPanel>
+
+            <StackPanel Grid.Row="1">
+                <!-- Cor Alta -->
+                <StackPanel Height="42" Orientation="Horizontal" Name="pnlCorAlta">
+                    <TextBlock VerticalAlignment="Center" Foreground="White" Margin="20,0,0,0"><Run Text="Cor de Alta:"/></TextBlock>
+                    <Rectangle x:Name="rectCorAlta" Margin="45,0,0,0" Stroke="Black" Width="30" Height="24" VerticalAlignment="Center" StrokeThickness="2" RadiusX="200" RadiusY="1" ToolTipService.ToolTip="Cor do Fundo" MouseLeftButtonDown="btnCorAlta_MouseLeftButtonDown">
+                        <Rectangle.Effect>
+                            <DropShadowEffect/>
+                        </Rectangle.Effect>
+                    </Rectangle>
+                </StackPanel>
+
+                <!-- Cor Baixa -->
+                <StackPanel Height="42" Orientation="Horizontal" Name="pnlCorBaixa">
+                    <TextBlock VerticalAlignment="Center" Foreground="White" Margin="20,0,0,0"><Run Text="Cor de Baixa:"/></TextBlock>
+                    <Rectangle x:Name="rectCorBaixa" Margin="37,0,0,0" Stroke="Black" Width="30" Height="24" VerticalAlignment="Center" StrokeThickness="2" RadiusX="200" RadiusY="1" ToolTipService.ToolTip="Cor do Fundo" MouseLeftButtonDown="btnCorBaixa_MouseLeftButtonDown">
+                        <Rectangle.Effect>
+                            <DropShadowEffect/>
+                        </Rectangle.Effect>
+                    </Rectangle>
+                </StackPanel>
+                
+                <!-- Stroke Color -->
+                <StackPanel Height="42" Orientation="Horizontal" Visibility="Collapsed" Name="pnlStrokeColor">
+                    <TextBlock VerticalAlignment="Center" Foreground="White" Margin="20,0,0,0"><Run Text="Cor:"/></TextBlock>
+                    <Rectangle x:Name="rectStrokeColor" Margin="37,0,0,0" Stroke="Black" Width="30" Height="24" VerticalAlignment="Center" StrokeThickness="2" RadiusX="200" RadiusY="1" ToolTipService.ToolTip="Cor do Fundo" MouseLeftButtonDown="btnStrokeColor_MouseLeftButtonDown">
+                        <Rectangle.Effect>
+                            <DropShadowEffect/>
+                        </Rectangle.Effect>
+                    </Rectangle>
+                </StackPanel>
+
+                <!-- Grossura -->
+                <StackPanel Height="42" Orientation="Horizontal">
+                    <TextBlock VerticalAlignment="Center" Foreground="White" Margin="20,0,0,0"><Run Text="Espessura:"/></TextBlock>
+                    <inputToolkit:NumericUpDown x:Name="numGrossuraObjeto" Foreground="White" VerticalAlignment="Center" Margin="10,0,0,0" Value="2" Minimum="1" Maximum="4" ToolTipService.ToolTip="Precisão em casas decimais (1-4)"/>
+                </StackPanel>
+
+                <!-- Tipo Linha  -->
+                <StackPanel Height="42" Orientation="Horizontal">
+                    <TextBlock VerticalAlignment="Center" Foreground="White" Margin="20,0,0,0"><Run Text="Tipo:"/></TextBlock>
+                    <ComboBox x:Name="cmbTipo" VerticalAlignment="Center" Margin="35,0,0,0" Width="169"/>
+                </StackPanel>
+
+
+            </StackPanel>
+
+            <!-- Stack Panel Rodapé -->
+            <StackPanel Orientation="Horizontal" Grid.Row="2">
+                <StackPanel.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF4C4C4C"/>
+                        <GradientStop Color="#FF333538" Offset="1"/>
+                        <GradientStop Color="#FF3C3D3F" Offset="0.394"/>
+                        <GradientStop Color="#FF151516" Offset="0.417"/>
+                    </LinearGradientBrush>
+                </StackPanel.Background>
+
+                <Button x:Name="OKButton" Content="Aplicar" Click="OKButton_Click" Width="75" Height="23" Margin="92,0,10,0"/>
+                <Button x:Name="CancelButton" Content="Cancelar" Click="CancelButton_Click" Width="75" Height="23" Margin="0,0,10,0"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</basics:ChildWindow>

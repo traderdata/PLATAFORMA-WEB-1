@@ -1,0 +1,138 @@
+﻿<basics:ChildWindow
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:basics="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+	xmlns:inputToolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Input.Toolkit"
+	x:Class="Traderdata.Client.Componente.GraficoSL.Configuracao.ConfiguracaoIndicador"
+	HasCloseButton="False" BorderBrush="{x:Null}" Width="325" Height="397" >
+
+
+    <!-- Borda da pagina -->
+    <Border CornerRadius="5" BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Border.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF181919" />
+                <GradientStop Color="#FF45464b" Offset="1" />
+            </LinearGradientBrush>
+        </Border.Background>
+
+        <Grid Margin="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="38" />
+                <RowDefinition />
+                <RowDefinition Height="0" />
+            </Grid.RowDefinitions>
+
+            <!-- Stack Panel Cabeçalho -->
+            <StackPanel Height="35" VerticalAlignment="Top"  Orientation="Horizontal" Grid.Row="0">
+                <StackPanel.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF4C4C4C"/>
+                        <GradientStop Color="#FF333538" Offset="1"/>
+                        <GradientStop Color="#FF3C3D3F" Offset="0.394"/>
+                        <GradientStop Color="#FF151516" Offset="0.417"/>
+                    </LinearGradientBrush>
+                </StackPanel.Background>
+                <TextBlock TextAlignment="Center" Foreground="White" Width="298" Margin="0,8,0,0" FontSize="13.333"><Run Text="Configurações do Indicador"/></TextBlock>
+            </StackPanel> 
+
+            <!-- Configurações do Indicador -->
+            <ScrollViewer BorderThickness="0" VerticalScrollBarVisibility="Auto" Grid.Row="1" Margin="0,0,0,42">
+                <StackPanel Grid.Row="1">
+
+                    <!-- Titulo -->
+                    <StackPanel Height="34" Orientation="Horizontal">
+                        <TextBlock VerticalAlignment="Center" Foreground="White" Margin="10,0,0,0" TextDecorations="Underline" FontWeight="Bold"><Run Text="Preferências:"/></TextBlock>
+                    </StackPanel>
+
+                    <!-- Janela -->
+                    
+                    <StackPanel Orientation="Horizontal">
+                        <RadioButton Margin="20,0,0,0" IsChecked="True" Name="rdbNovoPainel" GroupName="Painel" Checked="rdbNovoPainel_Checked" />
+                        <TextBlock VerticalAlignment="Center" Foreground="White" Margin="0,0,0,0" Text="Novo Painel Lateral" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Visibility="Visible">
+                        <RadioButton Margin="20,0,0,0" IsChecked="False" Name="rdbNovoPainelAbaixo" GroupName="Painel" Checked="rdbNovoPainel_Checked" />
+                        <TextBlock VerticalAlignment="Center" Foreground="White" Margin="0,0,0,0" Text="Novo Painel Abaixo dos Preços" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <RadioButton Margin="20,0,0,0" IsChecked="False" Name="rdbPainelPrecos" GroupName="Painel" Checked="rdbPainelPrecos_Checked" />
+                        <TextBlock VerticalAlignment="Center" Foreground="White" Margin="0,0,0,0" Text="Painel de Preços" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown_1" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <RadioButton Margin="20,0,0,0" IsChecked="False" Name="rdbPainelVolume" GroupName="Painel" Checked="rdbPainelVolume_Checked" />
+                        <TextBlock VerticalAlignment="Center" Foreground="White" Margin="0,0,0,0" Text="Painel de Volume" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown_2" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <RadioButton Margin="20,0,0,0" IsChecked="False" Name="rdbPainelOutros" GroupName="Painel" Checked="rdbPainelOutros_Checked" />
+                        <TextBlock VerticalAlignment="Center" Foreground="White" Margin="0,0,0,0" Text="Outros Paineis" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown_3" />
+                    </StackPanel>
+                    
+                    <!-- Janela -->
+                    <StackPanel Height="34" Orientation="Horizontal">
+                        <TextBlock Name="lblPainel" VerticalAlignment="Center" Foreground="White" Margin="20,0,0,0"><Run Text="Painel: Novo Painel"/></TextBlock>
+                    </StackPanel>
+
+                    <!-- Cor Objeto -->
+                    <StackPanel Height="34" Orientation="Horizontal">
+                        <TextBlock VerticalAlignment="Center" Foreground="White" Margin="20,0,0,0"><Run Text="Cor:"/></TextBlock>
+                        <Rectangle x:Name="rectCorAlta" Margin="49,0,0,0" Stroke="Black" Width="30" Height="24" VerticalAlignment="Center" StrokeThickness="2" RadiusX="200" RadiusY="1" MouseLeftButtonDown="btnCorAlta_Click">
+                            <Rectangle.Effect>
+                                <DropShadowEffect/>
+                            </Rectangle.Effect>
+                        </Rectangle>
+                        
+                    </StackPanel>
+					
+					
+
+                    <StackPanel Visibility="Collapsed" Height="34" Orientation="Horizontal">
+                        <TextBlock VerticalAlignment="Center" Foreground="White" Margin="20,0,0,0"><Run Text="Cor de Baixa:"/></TextBlock>
+                        <Rectangle x:Name="rectCorBaixa" Margin="40,0,0,0" Stroke="Black" Width="30" Height="24" VerticalAlignment="Center" StrokeThickness="2" RadiusX="200" RadiusY="1" MouseLeftButtonDown="btnCorBaixa_Click">
+                            <Rectangle.Effect>
+                                <DropShadowEffect/>
+                            </Rectangle.Effect>
+                        </Rectangle>
+                    </StackPanel>
+
+                    <!-- Tipo Linha Objeto -->
+                    <StackPanel Height="34" Orientation="Horizontal">
+                        <TextBlock VerticalAlignment="Center" Foreground="White" Margin="20,0,0,0"><Run Text="Tipo de Linha:"/></TextBlock>
+                        <ComboBox x:Name="cmbTipoLinha" Margin="6,0,0,0" Width="169" VerticalAlignment="Center"/>
+                    </StackPanel>
+
+                    <!-- Grossura -->
+                    <StackPanel Height="34" Orientation="Horizontal">
+                        <TextBlock VerticalAlignment="Center" Foreground="White" Margin="20,0,0,0"><Run Text="Grossura:"/></TextBlock>
+                        <inputToolkit:NumericUpDown Name="numGrossura" Foreground="White" Margin="33,0,0,0" Minimum="1" Maximum="4" Value="1"/>
+                    </StackPanel>
+
+                    <!-- Titulo -->
+                    <StackPanel Height="34" Orientation="Horizontal">
+                        <TextBlock VerticalAlignment="Center" Foreground="White" Margin="10,0,0,0" TextDecorations="Underline" FontWeight="Bold"><Run Text="Parâmetros:"/></TextBlock>
+                    </StackPanel>
+
+                    <!-- StackPanel de Parametros -->
+                    <StackPanel x:Name="stpParametros"/>
+                </StackPanel>
+            </ScrollViewer>
+
+            <!-- Stack Panel Rodapé -->
+            <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="0,294,0,0" Height="42" VerticalAlignment="Top">
+                <StackPanel.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF4C4C4C"/>
+                        <GradientStop Color="#FF333538" Offset="1"/>
+                        <GradientStop Color="#FF3C3D3F" Offset="0.394"/>
+                        <GradientStop Color="#FF151516" Offset="0.417"/>
+                    </LinearGradientBrush>
+                </StackPanel.Background>
+                <Button x:Name="ExcluiButton" Content="Excluir" Click="ExcluiButton_Click" Width="75" Height="23" Margin="20,0,10,0" Visibility="Collapsed" />
+                <Button x:Name="OKButton" Content="Aplicar" Click="OKButton_Click" Width="75" Height="23" Margin="0,0,10,0"/>
+                <Button x:Name="CancelButton" Content="Cancelar" Click="CancelButton_Click" Width="75" Height="23" Margin="0,0,10,0"/>
+            </StackPanel>
+            <Image Canvas.ZIndex="1" Visibility="Collapsed" Grid.Row="1" Margin="177,121,116,183" x:Name="btnTranfCandleAlta" Cursor="Hand" Width="10" Height="40" MouseLeftButtonDown="btnTranfCandleAlta_MouseLeftButtonDown" Source="/../Images/btnTranfAlta.png"></Image>
+            <Image Canvas.ZIndex="1" Visibility="Collapsed" Grid.Row="1" Margin="124,121,169,183" x:Name="btnTranfCandleBaixa" Cursor="Hand" Width="10" Height="40" MouseLeftButtonDown="btnTranfCandleBaixa_MouseLeftButtonDown" Source="/../Images/btnTranfBaixa.png"></Image>
+        </Grid>
+    </Border>
+</basics:ChildWindow>

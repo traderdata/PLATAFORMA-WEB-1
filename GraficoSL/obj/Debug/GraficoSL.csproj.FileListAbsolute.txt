@@ -1,0 +1,472 @@
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\Configuracao\ConfiguraTexto.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\Configuracao\ConfiguraDarvaBox.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\Configuracao\ConfiguraErrorChannel.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\Configuracao\ConfiguraFibonacciRetracement.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\Configuracao\ConfiguracaoIndicador.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\Configuracao\ConfiguraObjeto.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\Configuracao\ConfiguraSerie.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\Configuracao\ConfiguraGrafico.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\Configuracao\SelecaoPainel.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\Main\Grafico.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\Main\GraficoMini.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\Outros\ComentarioDialog.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\Outros\Sobre.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\StockChart\ChartElementProperties\ColorPropertyPresenter.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\StockChart\ChartElementProperties\PropertiesDialogContent.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\StockChart\Controls\ColorDialogInternal.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\StockChart\Indicator\IndicatorDialogInternal.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\StockChart\LineStudies\LineStudyContextMenu.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\Util\ColorDialog.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\Util\ConfirmaExclusaoDialog.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\Util\MensagemDialog.g.i.cs
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\TD.COMP.GRAFICOSL.g.resources
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\TD.COMP.GRAFICOSL.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\TD.COMP.GRAFICOSL.pdb
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\SharpZipLib.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Windows.Controls.Data.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Windows.Controls.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Windows.Controls.Navigation.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Xml.Linq.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Windows.Data.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Windows.Controls.xml
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Windows.Controls.Data.xml
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Windows.Controls.Input.Toolkit.pdb
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Windows.Controls.Input.Toolkit.xml
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Windows.Controls.Navigation.xml
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Xml.Linq.xml
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\System.Windows.Data.xml
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ar\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\bg\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ca\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\cs\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\da\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\el\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\et\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\eu\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\fi\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\he\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\hr\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\hu\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\id\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\lt\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\lv\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ms\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\nl\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\no\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\pl\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\pt\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\pt-BR\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ro\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ru\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sk\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sl\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sv\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\th\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\tr\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\uk\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\vi\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\de\System.Windows.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\es\System.Windows.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\fr\System.Windows.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\it\System.Windows.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ja\System.Windows.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ko\System.Windows.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\ru\System.Windows.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\TD.COMP.GRAFICOSL.dll
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\TD.COMP.GRAFICOSL.pdb
+C:\Users\Felipe\Documents\Visual Studio 2010\Projects\GRAFICOSL\GraficoSL\obj\Debug\GraficoSL.csprojResolveAssemblyReference.cache
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\TD.COMP.GRAFICOSL.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\TD.COMP.GRAFICOSL.pdb
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\SharpZipLib.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Windows.Controls.Data.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Windows.Controls.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Windows.Controls.Navigation.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Xml.Linq.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Windows.Data.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Windows.Controls.xml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Windows.Controls.Data.xml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Windows.Controls.Input.Toolkit.pdb
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Windows.Controls.Input.Toolkit.xml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Windows.Controls.Navigation.xml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Xml.Linq.xml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\System.Windows.Data.xml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ar\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\bg\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ca\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\cs\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\da\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\el\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\et\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\eu\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\fi\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\he\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\hr\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\hu\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\id\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\lt\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\lv\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ms\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\nl\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\no\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\pl\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\pt\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\pt-BR\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ro\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ru\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sk\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sl\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sv\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\th\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\tr\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\uk\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\vi\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\de\System.Windows.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\es\System.Windows.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\fr\System.Windows.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\it\System.Windows.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ja\System.Windows.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ko\System.Windows.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\ru\System.Windows.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\GraficoSL.csprojResolveAssemblyReference.cache
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\Configuracao\ConfiguraTexto.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\Configuracao\ConfiguraDarvaBox.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\Configuracao\ConfiguraErrorChannel.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\Configuracao\ConfiguraFibonacciRetracement.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\Configuracao\ConfiguracaoIndicador.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\Configuracao\ConfiguraObjeto.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\Configuracao\ConfiguraSerie.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\Configuracao\ConfiguraGrafico.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\Configuracao\SelecaoPainel.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\Main\Grafico.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\Main\GraficoMini.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\Outros\ComentarioDialog.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\Outros\Sobre.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\StockChart\ChartElementProperties\ColorPropertyPresenter.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\StockChart\ChartElementProperties\PropertiesDialogContent.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\StockChart\Controls\ColorDialogInternal.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\StockChart\Indicator\IndicatorDialogInternal.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\StockChart\LineStudies\LineStudyContextMenu.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\Util\ColorDialog.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\Util\ConfirmaExclusaoDialog.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\Util\MensagemDialog.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\TD.COMP.GRAFICOSL.g.resources
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\TD.COMP.GRAFICOSL.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\GraficoSL\obj\Debug\TD.COMP.GRAFICOSL.pdb

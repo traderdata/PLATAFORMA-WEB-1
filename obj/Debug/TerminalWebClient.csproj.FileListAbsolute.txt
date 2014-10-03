@@ -1,0 +1,588 @@
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\ResolveAssemblyReference.cache
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\App.g.i.cs
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\Dialog\CentralAlertas.g.i.cs
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\Dialog\Sobre.g.i.cs
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\Dialog\DetalhesAlerta.g.i.cs
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\Dialog\Dicas.g.i.cs
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\Dialog\CentralAnalise.g.i.cs
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\Dialog\ConfiguracaoPadrao.g.i.cs
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\Dialog\NovoGrafico.g.i.cs
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\Dialog\PesquisaAtivo.g.i.cs
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\Dialog\PublicarAnalise.g.i.cs
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\Dialog\SalvaTemplate.g.i.cs
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\Dialog\SelecaoTemplate.g.i.cs
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\Dialog\AlertaAnalises.g.i.cs
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\Principal.g.i.cs
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\TabAT.g.i.cs
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\TD.APP.TERMINALWEB.g.resources
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\TD.APP.TERMINALWEB.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\TD.APP.TERMINALWEB.pdb
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\AppManifest.xaml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\GraficoWebTestPage.html
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.ServiceModel.NetTcp.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Data.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Data.Toolkit.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Input.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Navigation.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.ServiceModel.Extensions.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Data.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Xml.Linq.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.ServiceModel.NetTcp.xml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.xml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Data.xml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Data.Toolkit.pdb
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Data.Toolkit.xml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Input.xml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Input.Toolkit.pdb
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Input.Toolkit.xml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Navigation.xml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\TD.COMP.GRAFICOSL.pdb
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.ServiceModel.Extensions.xml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Windows.Data.xml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\System.Xml.Linq.xml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\de\System.ServiceModel.NetTcp.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\es\System.ServiceModel.NetTcp.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\fr\System.ServiceModel.NetTcp.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\it\System.ServiceModel.NetTcp.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ja\System.ServiceModel.NetTcp.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ko\System.ServiceModel.NetTcp.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ru\System.ServiceModel.NetTcp.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hans\System.ServiceModel.NetTcp.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hant\System.ServiceModel.NetTcp.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ar\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\bg\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ca\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\cs\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\da\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\el\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\et\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\eu\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\fi\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\he\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\hr\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\hu\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\id\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\lt\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\lv\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ms\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\nl\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\no\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\pl\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\pt\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\pt-BR\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ro\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ru\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sk\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sl\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sv\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\th\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\tr\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\uk\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\vi\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ar\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\bg\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ca\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\cs\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\da\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\de\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\el\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\es\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\et\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\eu\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\fi\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\fr\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\he\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\hr\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\hu\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\id\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\it\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ja\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ko\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\lt\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\lv\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ms\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\nl\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\no\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\pl\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\pt\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\pt-BR\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ro\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ru\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sk\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sl\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sv\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\th\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\tr\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\uk\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\vi\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hans\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hant\System.Windows.Controls.Input.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\de\System.ServiceModel.Extensions.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\es\System.ServiceModel.Extensions.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\fr\System.ServiceModel.Extensions.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\it\System.ServiceModel.Extensions.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ja\System.ServiceModel.Extensions.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ko\System.ServiceModel.Extensions.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ru\System.ServiceModel.Extensions.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hans\System.ServiceModel.Extensions.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hant\System.ServiceModel.Extensions.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\de\System.Windows.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\es\System.Windows.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\fr\System.Windows.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\it\System.Windows.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ja\System.Windows.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ko\System.Windows.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ru\System.Windows.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\TD.APP.TERMINALWEB.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\TD.APP.TERMINALWEB.pdb
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\XapCacheFile.xml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\TerminalWeb.xap
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\Dialog\SelecaoAtivosSpread.g.i.cs
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\obj\Debug\Dialog\NovoAtivoMesmoGrafico.g.i.cs
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\FM.WebSync.Silverlight.Core.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\FM.WebSync.Silverlight.Core.xml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\TD.COMP.GRAFICOSL.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\C1.Silverlight.dll
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\C1.Silverlight.xml
+C:\Backup\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\ja\C1.Silverlight.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\TD.APP.TERMINALWEB.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\TD.APP.TERMINALWEB.pdb
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\AppManifest.xaml
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\TerminalWeb.xap
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\GraficoWebTestPage.html
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\FM.WebSync.Silverlight.Core.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\SharpZipLib.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\System.Windows.Controls.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\TD.COMP.GRAFICOSL.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\System.Xml.Linq.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\TD.COMP.GRAFICOSL.pdb
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\FM.WebSync.Silverlight.Core.xml
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\System.Windows.Controls.xml
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\System.Windows.Controls.Input.Toolkit.pdb
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\System.Windows.Controls.Input.Toolkit.xml
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\TerminalWebClient.csprojResolveAssemblyReference.cache
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\App.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\Cadastro.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\CadastroConcluido.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\Login.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\RecuperaSenha.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\CentralAlertas.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\SelecaoAtivosSpread.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\NovoAtivoMesmoGrafico.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\Sobre.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\DetalhesAlerta.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\Dicas.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\CentralAnalise.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\ConfiguracaoPadrao.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\NovoGrafico.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\PesquisaAtivo.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\PublicarAnalise.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\SalvaTemplate.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\SelecaoTemplate.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\AlertaAnalises.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Dialog\TerminalDesktop.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\Principal.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\TabAT.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\TD.APP.TERMINALWEB.g.resources
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\TD.APP.TERMINALWEB.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\TD.APP.TERMINALWEB.pdb
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB\obj\Debug\XapCacheFile.xml
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\TD.APP.TERMINALWEB.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\TD.APP.TERMINALWEB.pdb
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\AppManifest.xaml
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\TerminalWeb.xap
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\GraficoWebTestPage.html
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\FM.WebSync.Silverlight.Core.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\SharpZipLib.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\System.Windows.Controls.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\TD.COMP.GRAFICOSL.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\System.Xml.Linq.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\TD.COMP.GRAFICOSL.pdb
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\FM.WebSync.Silverlight.Core.xml
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\System.Windows.Controls.xml
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\System.Windows.Controls.Input.Toolkit.pdb
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\System.Windows.Controls.Input.Toolkit.xml
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\TerminalWebClient.csprojResolveAssemblyReference.cache
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\App.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\Cadastro.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\CadastroConcluido.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\Login.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\RecuperaSenha.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\CentralAlertas.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\SelecaoAtivosSpread.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\NovoAtivoMesmoGrafico.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\Sobre.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\DetalhesAlerta.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\Dicas.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\CentralAnalise.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\ConfiguracaoPadrao.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\NovoGrafico.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\PesquisaAtivo.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\PublicarAnalise.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\SalvaTemplate.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\SelecaoTemplate.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\AlertaAnalises.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Dialog\TerminalDesktop.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\Principal.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\TabAT.g.i.cs
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\TD.APP.TERMINALWEB.g.resources
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\TD.APP.TERMINALWEB.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\TD.APP.TERMINALWEB.pdb
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\obj\Debug\XapCacheFile.xml
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\System.Xml.Linq.xml
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\TD.APP.TERMINALWEB.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\TD.APP.TERMINALWEB.pdb
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\AppManifest.xaml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\TerminalWeb.xap
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\GraficoWebTestPage.html
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\System.Windows.Controls.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\TD.COMP.GRAFICOSL.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\System.Xml.Linq.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\TD.COMP.GRAFICOSL.pdb
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\FM.WebSync.Silverlight.Core.xml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\System.Windows.Controls.xml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\System.Windows.Controls.Input.Toolkit.pdb
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\System.Windows.Controls.Input.Toolkit.xml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\System.Xml.Linq.xml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\TerminalWebClient.csprojResolveAssemblyReference.cache
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\App.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\Cadastro.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\CadastroConcluido.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\Login.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\RecuperaSenha.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\CentralAlertas.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\SelecaoAtivosSpread.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\NovoAtivoMesmoGrafico.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\Sobre.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\DetalhesAlerta.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\Dicas.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\CentralAnalise.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\ConfiguracaoPadrao.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\NovoGrafico.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\PesquisaAtivo.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\PublicarAnalise.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\SalvaTemplate.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\SelecaoTemplate.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\AlertaAnalises.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Dialog\TerminalDesktop.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\Principal.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\TabAT.g.i.cs
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\TD.APP.TERMINALWEB.g.resources
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\TD.APP.TERMINALWEB.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\TD.APP.TERMINALWEB.pdb
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\XapCacheFile.xml

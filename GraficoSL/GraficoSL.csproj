@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D983D5C9-294F-4DC4-B8F4-9FD4618A6DBA}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Traderdata.Client.Componente.GraficoSL</RootNamespace>
+    <AssemblyName>TD.COMP.GRAFICOSL</AssemblyName>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <!-- This property group is only here to support building this project using the 
+       MSBuild 3.5 toolset. In order to work correctly with this older toolset, it needs 
+       to set the TargetFrameworkVersion to v3.5 -->
+  <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="SharpZipLib">
+      <HintPath>..\..\..\..\..\..\..\Backup\Projetos2012\CLIENT\COMPONENTES\GRAFICOSL\GraficoSL\Bin\Debug\SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Controls, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Data, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Input.Toolkit, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Navigation, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Toolkit, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Browser" />
+    <Reference Include="System.Xml.Linq, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuracao\ConfiguraTexto.xaml.cs">
+      <DependentUpon>ConfiguraTexto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracao\ConfiguraDarvaBox.xaml.cs">
+      <DependentUpon>ConfiguraDarvaBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracao\ConfiguraErrorChannel.xaml.cs">
+      <DependentUpon>ConfiguraErrorChannel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracao\ConfiguraFibonacciRetracement.xaml.cs">
+      <DependentUpon>ConfiguraFibonacciRetracement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracao\ConfiguracaoIndicador.xaml.cs">
+      <DependentUpon>ConfiguracaoIndicador.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracao\ConfiguraObjeto.xaml.cs">
+      <DependentUpon>ConfiguraObjeto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracao\ConfiguraSerie.xaml.cs">
+      <DependentUpon>ConfiguraSerie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracao\ConfiguraGrafico.xaml.cs">
+      <DependentUpon>ConfiguraGrafico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracao\SelecaoPainel.xaml.cs">
+      <DependentUpon>SelecaoPainel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DTO\BarraDTO.cs" />
+    <Compile Include="DTO\BarraRTDTO.cs" />
+    <Compile Include="DTO\ConfiguracaoGraficoDTO.cs" />
+    <Compile Include="DTO\ConfiguracaoPadraoDTO.cs" />
+    <Compile Include="DTO\SerieAuxiliarDTO.cs" />
+    <Compile Include="DTO\TemplateDTO.cs" />
+    <Compile Include="DTO\TickDTO.cs" />
+    <Compile Include="Enum\EnumGeral.cs" />
+    <Compile Include="Enum\EnumPeriodicidade.cs" />
+    <Compile Include="Enum\EnumPeriodo.cs" />
+    <Compile Include="DTO\IndicadorDTO.cs" />
+    <Compile Include="DTO\ObjetoEstudoDTO.cs" />
+    <Compile Include="Enum\Tupla.cs" />
+    <Compile Include="Main\Grafico.xaml.cs">
+      <DependentUpon>Grafico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Main\GraficoMini.xaml.cs">
+      <DependentUpon>GraficoMini.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Outros\ComentarioDialog.xaml.cs">
+      <DependentUpon>ComentarioDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Outros\Sobre.xaml.cs">
+      <DependentUpon>Sobre.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StockChart\ChartElementProperties\ChartElementColorProperty.cs" />
+    <Compile Include="StockChart\ChartElementProperties\ChartElementOpacityProperty.cs" />
+    <Compile Include="StockChart\ChartElementProperties\ChartElementPropertyBase.cs" />
+    <Compile Include="StockChart\ChartElementProperties\ChartElementStrokeThicknessProperty.cs" />
+    <Compile Include="StockChart\ChartElementProperties\ChartElementStrokeTypeProperty.cs" />
+    <Compile Include="StockChart\ChartElementProperties\ColorPropertyPresenter.xaml.cs">
+      <DependentUpon>ColorPropertyPresenter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StockChart\ChartElementProperties\ComboBoxPropertyPresenter.cs" />
+    <Compile Include="StockChart\ChartElementProperties\IChartElementProperty.cs" />
+    <Compile Include="StockChart\ChartElementProperties\IChartElementPropertyAble.cs" />
+    <Compile Include="StockChart\ChartElementProperties\IValuePresenter.cs" />
+    <Compile Include="StockChart\ChartElementProperties\PropertiesDialogContent.xaml.cs">
+      <DependentUpon>PropertiesDialogContent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StockChart\ChartElementProperties\SliderPropertyPresenter.cs" />
+    <Compile Include="StockChart\ChartElementProperties\TextBoxPropertyPresenter.cs" />
+    <Compile Include="StockChart\ChartPanel\ChartPanel.cs" />
+    <Compile Include="StockChart\ChartPanel\ChartPanelMovePlaceHolder.cs" />
+    <Compile Include="StockChart\ChartPanel\ChartPanelMoveShadow.cs" />
+    <Compile Include="StockChart\ChartPanel\ChartPanelsDivider.cs" />
+    <Compile Include="StockChart\ChartPanel\ChartPanelTitleBar.cs" />
+    <Compile Include="StockChart\ChartPanel\ChartPanelTitleBarButton.cs" />
+    <Compile Include="StockChart\ChartPanel\ChartPanelTitleCaptionEntry.cs" />
+    <Compile Include="StockChart\ChartPanel\ChartPanel_CalcIndicators.cs" />
+    <Compile Include="StockChart\ChartPanel\ChartPanel_DepProps.cs" />
+    <Compile Include="StockChart\ChartPanel\ChartPanel_HeatMap.cs" />
+    <Compile Include="StockChart\ChartPanel\ChartPanel_InfoPanel.cs" />
+    <Compile Include="StockChart\ChartPanel\ChartPanel_Public.cs" />
+    <Compile Include="StockChart\ChartPanel\ChartPanel_SeriesDragDrop.cs" />
+    <Compile Include="StockChart\ChartPanel\ChartPanel_SideVolumeDepthBars.cs" />
+    <Compile Include="StockChart\Chart\Calendar.cs" />
+    <Compile Include="StockChart\Chart\ChartScroller.cs" />
+    <Compile Include="StockChart\Chart\Constants.cs" />
+    <Compile Include="StockChart\Chart\InfoPanel.cs" />
+    <Compile Include="StockChart\Chart\MoveSeriesIndicator.cs" />
+    <Compile Include="StockChart\Chart\PanelsBarButton.cs" />
+    <Compile Include="StockChart\Chart\PanelsBarContainer.cs" />
+    <Compile Include="StockChart\Chart\PanelsContainer.cs" />
+    <Compile Include="StockChart\Chart\PanelsContainerAnim.cs" />
+    <Compile Include="StockChart\Chart\StockChartX.cs" />
+    <Compile Include="StockChart\Chart\StockChartX_DependencyProperties.cs" />
+    <Compile Include="StockChart\Chart\StockChartX_Enums.cs" />
+    <Compile Include="StockChart\Chart\StockChartX_Events.cs" />
+    <Compile Include="StockChart\Chart\StockChartX_Exceptions.cs" />
+    <Compile Include="StockChart\Chart\StockChartX_ImageSerialization.cs" />
+    <Compile Include="StockChart\Chart\StockChartX_IndicatorsParams.cs" />
+    <Compile Include="StockChart\Chart\StockChartX_LineStudiesParams.cs" />
+    <Compile Include="StockChart\Chart\StockChartX_Notifications.cs" />
+    <Compile Include="StockChart\Chart\StockChartX_Public.cs" />
+    <Compile Include="StockChart\Chart\StockChartX_ResizeMove.cs" />
+    <Compile Include="StockChart\Chart\StockChartX_Serialization.cs" />
+    <Compile Include="StockChart\Chart\YAxisCanvas.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StockChart\Controls\ColorDialogInternal.xaml.cs">
+      <DependentUpon>ColorDialogInternal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StockChart\Controls\ColorPicker.cs" />
+    <Compile Include="StockChart\Controls\ColorSpace.cs" />
+    <Compile Include="StockChart\Controls\Dialog.cs" />
+    <Compile Include="StockChart\Controls\HSV.cs" />
+    <Compile Include="StockChart\DataManager\DataEntry.cs" />
+    <Compile Include="StockChart\DataManager\DataManager.cs" />
+    <Compile Include="StockChart\DataManager\DataManager_Serialization.cs" />
+    <Compile Include="StockChart\Indicator\AccumulativeSwingIndex.cs" />
+    <Compile Include="StockChart\Indicator\Aroon.cs" />
+    <Compile Include="StockChart\Indicator\AroonOscillator.cs" />
+    <Compile Include="StockChart\Indicator\BollingerBands.cs" />
+    <Compile Include="StockChart\Indicator\ChaikinMoneyFlow.cs" />
+    <Compile Include="StockChart\Indicator\ChaikinVolatility.cs" />
+    <Compile Include="StockChart\Indicator\ChandeMomentumOscillator.cs" />
+    <Compile Include="StockChart\Indicator\CommodityChannelIndex.cs" />
+    <Compile Include="StockChart\Indicator\ComparativeRelativeStrength.cs" />
+    <Compile Include="StockChart\Indicator\KeltnerIndex.cs" />
+    <Compile Include="StockChart\Indicator\CustomIndicator.cs" />
+    <Compile Include="StockChart\Indicator\DetrendedPriceOscillator.cs" />
+    <Compile Include="StockChart\Indicator\DIDIIndex.cs" />
+    <Compile Include="StockChart\Indicator\DirectionalMovementSystem.cs" />
+    <Compile Include="StockChart\Indicator\EaseOfMovement.cs" />
+    <Compile Include="StockChart\Indicator\ExponentialMovingAverage.cs" />
+    <Compile Include="StockChart\Indicator\FractalChaosBands.cs" />
+    <Compile Include="StockChart\Indicator\FractalChaosOscillator.cs" />
+    <Compile Include="StockChart\Indicator\HighLowBands.cs" />
+    <Compile Include="StockChart\Indicator\HighMinusLow.cs" />
+    <Compile Include="StockChart\Indicator\HistoricalVolatility.cs" />
+    <Compile Include="StockChart\Indicator\IndicadorSerieFilha.cs" />
+    <Compile Include="StockChart\Indicator\Indicator.cs" />
+    <Compile Include="StockChart\Indicator\IndicatorDialogInternal.xaml.cs">
+      <DependentUpon>IndicatorDialogInternal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StockChart\Indicator\Indicator_Paint.cs" />
+    <Compile Include="StockChart\Indicator\LinearRegressionForecast.cs" />
+    <Compile Include="StockChart\Indicator\LinearRegressionIntercept.cs" />
+    <Compile Include="StockChart\Indicator\LinearRegressionRSquared.cs" />
+    <Compile Include="StockChart\Indicator\LinearRegressionSlope.cs" />
+    <Compile Include="StockChart\Indicator\MACD.cs" />
+    <Compile Include="StockChart\Indicator\MACDHistogram.cs" />
+    <Compile Include="StockChart\Indicator\MassIndex.cs" />
+    <Compile Include="StockChart\Indicator\Median.cs" />
+    <Compile Include="StockChart\Indicator\MomentumOscillator.cs" />
+    <Compile Include="StockChart\Indicator\MoneyFlowIndex.cs" />
+    <Compile Include="StockChart\Indicator\MovingAverageEnvelope.cs" />
+    <Compile Include="StockChart\Indicator\NegativeVolumeIndex.cs" />
+    <Compile Include="StockChart\Indicator\OnBalanceVolume.cs" />
+    <Compile Include="StockChart\Indicator\ParabolicSAR.cs" />
+    <Compile Include="StockChart\Indicator\PerformanceIndex.cs" />
+    <Compile Include="StockChart\Indicator\PositiveVolumeIndex.cs" />
+    <Compile Include="StockChart\Indicator\PriceOscillator.cs" />
+    <Compile Include="StockChart\Indicator\PriceROC.cs" />
+    <Compile Include="StockChart\Indicator\PriceVolumeTrend.cs" />
+    <Compile Include="StockChart\Indicator\PrimeNumberBands.cs" />
+    <Compile Include="StockChart\Indicator\PrimeNumberOscillator.cs" />
+    <Compile Include="StockChart\Indicator\RainbowOscillator.cs" />
+    <Compile Include="StockChart\Indicator\RelativeStrengthIndex.cs" />
+    <Compile Include="StockChart\Indicator\SimpleMovingAverage.cs" />
+    <Compile Include="StockChart\Indicator\StandardDeviation.cs" />
+    <Compile Include="StockChart\Indicator\StochasticMomentumIndex.cs" />
+    <Compile Include="StockChart\Indicator\StochasticOscillator.cs" />
+    <Compile Include="StockChart\Indicator\SwingIndex.cs" />
+    <Compile Include="StockChart\Indicator\TimeSeriesMovingAverage.cs" />
+    <Compile Include="StockChart\Indicator\TradeVolumeIndex.cs" />
+    <Compile Include="StockChart\Indicator\TriangularMovingAverage.cs" />
+    <Compile Include="StockChart\Indicator\TRIX.cs" />
+    <Compile Include="StockChart\Indicator\TrueRange.cs" />
+    <Compile Include="StockChart\Indicator\TypicalPrice.cs" />
+    <Compile Include="StockChart\Indicator\UltimateOscillator.cs" />
+    <Compile Include="StockChart\Indicator\VariableMovingAverage.cs" />
+    <Compile Include="StockChart\Indicator\VerticalHorizontalFilter.cs" />
+    <Compile Include="StockChart\Indicator\VIDYA.cs" />
+    <Compile Include="StockChart\Indicator\VolumeOscillator.cs" />
+    <Compile Include="StockChart\Indicator\VolumeROC.cs" />
+    <Compile Include="StockChart\Indicator\WeightedClose.cs" />
+    <Compile Include="StockChart\Indicator\WeightedMovingAverage.cs" />
+    <Compile Include="StockChart\Indicator\WellesWilderSmoothing.cs" />
+    <Compile Include="StockChart\Indicator\WilliamsAccumulationDistribution.cs" />
+    <Compile Include="StockChart\Indicator\WilliamsPctR.cs" />
+    <Compile Include="StockChart\LineStudies\Ellipse.cs" />
+    <Compile Include="StockChart\LineStudies\ErrorChannel.cs" />
+    <Compile Include="StockChart\LineStudies\FibonacciArcs.cs" />
+    <Compile Include="StockChart\LineStudies\FibonacciFan.cs" />
+    <Compile Include="StockChart\LineStudies\FibonacciRetracements.cs" />
+    <Compile Include="StockChart\LineStudies\FibonacciTimeZones.cs" />
+    <Compile Include="StockChart\LineStudies\FrameworkElement.cs" />
+    <Compile Include="StockChart\LineStudies\GannFan.cs" />
+    <Compile Include="StockChart\LineStudies\HorizontalLine.cs" />
+    <Compile Include="StockChart\LineStudies\ImageObject.cs" />
+    <Compile Include="StockChart\LineStudies\IShapeAble.cs" />
+    <Compile Include="StockChart\LineStudies\LineStudy.cs" />
+    <Compile Include="StockChart\LineStudies\LineStudyContextMenu.xaml.cs">
+      <DependentUpon>LineStudyContextMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StockChart\LineStudies\Observacao.cs" />
+    <Compile Include="StockChart\LineStudies\QuadrantLines.cs" />
+    <Compile Include="StockChart\LineStudies\RaffRegression.cs" />
+    <Compile Include="StockChart\LineStudies\Rectangle.cs" />
+    <Compile Include="StockChart\LineStudies\Regua.cs" />
+    <Compile Include="StockChart\LineStudies\SpeedLines.cs" />
+    <Compile Include="StockChart\LineStudies\StaticText.cs" />
+    <Compile Include="StockChart\LineStudies\TironeLevels.cs" />
+    <Compile Include="StockChart\LineStudies\TrendLine.cs" />
+    <Compile Include="StockChart\LineStudies\VerticalLine.cs" />
+    <Compile Include="StockChart\PaintObjects\Candle.cs" />
+    <Compile Include="StockChart\PaintObjects\CandleHeikinAshi.cs" />
+    <Compile Include="StockChart\PaintObjects\ChartTimers.cs" />
+    <Compile Include="StockChart\PaintObjects\ContextLine.cs" />
+    <Compile Include="StockChart\PaintObjects\Ellipse.cs" />
+    <Compile Include="StockChart\PaintObjects\IPaintObject.cs" />
+    <Compile Include="StockChart\PaintObjects\Label.cs" />
+    <Compile Include="StockChart\PaintObjects\Line.cs" />
+    <Compile Include="StockChart\PaintObjects\PaintObjectsManager.cs" />
+    <Compile Include="StockChart\PaintObjects\Rectangle.cs" />
+    <Compile Include="StockChart\PaintObjects\Rectangle3D.cs" />
+    <Compile Include="StockChart\PaintObjects\SelectionDot.cs" />
+    <Compile Include="StockChart\PaintObjects\Stock.cs" />
+    <Compile Include="StockChart\PriceStyles\Candles.cs" />
+    <Compile Include="StockChart\PriceStyles\DarvasBoxes.cs" />
+    <Compile Include="StockChart\PriceStyles\EquiVolume.cs" />
+    <Compile Include="StockChart\PriceStyles\HeikinAshi.cs" />
+    <Compile Include="StockChart\PriceStyles\Kagi.cs" />
+    <Compile Include="StockChart\PriceStyles\Linear.cs" />
+    <Compile Include="StockChart\PriceStyles\Models\PriceStyleModeBase.cs" />
+    <Compile Include="StockChart\PriceStyles\Models\PriceStyleStandardModel.cs" />
+    <Compile Include="StockChart\PriceStyles\PointAndFigure.cs" />
+    <Compile Include="StockChart\PriceStyles\Renko.cs" />
+    <Compile Include="StockChart\PriceStyles\Stock.cs" />
+    <Compile Include="StockChart\PriceStyles\Style.cs" />
+    <Compile Include="StockChart\PriceStyles\ThreeLineBreak.cs" />
+    <Compile Include="StockChart\Series\Models\SeriesModelBase.cs" />
+    <Compile Include="StockChart\Series\Models\SeriesStandardModel.cs" />
+    <Compile Include="StockChart\Series\Series.cs" />
+    <Compile Include="StockChart\Series\SeriesTickBox.cs" />
+    <Compile Include="StockChart\Series\SeriesTitleLabel.cs" />
+    <Compile Include="StockChart\Series\Standard.cs" />
+    <Compile Include="StockChart\Series\Stock.cs" />
+    <Compile Include="StockChart\Series\ToolTip.cs" />
+    <Compile Include="StockChart\TA-SDK\Bands.cs" />
+    <Compile Include="StockChart\TA-SDK\Field.cs" />
+    <Compile Include="StockChart\TA-SDK\General.cs" />
+    <Compile Include="StockChart\TA-SDK\Index.cs" />
+    <Compile Include="StockChart\TA-SDK\LinearRegression.cs" />
+    <Compile Include="StockChart\TA-SDK\MovingAverage.cs" />
+    <Compile Include="StockChart\TA-SDK\Navigator.cs" />
+    <Compile Include="StockChart\TA-SDK\Note.cs" />
+    <Compile Include="StockChart\TA-SDK\Oscillator.cs" />
+    <Compile Include="StockChart\TA-SDK\Recordset.cs" />
+    <Compile Include="StockChart\TA-SDK\TASDK.cs" />
+    <Compile Include="StockChart\Utils\Algorithms.cs" />
+    <Compile Include="StockChart\Utils\Brushes.cs" />
+    <Compile Include="StockChart\Utils\DateTime.Extensions.cs" />
+    <Compile Include="StockChart\Utils\EditableImage.cs" />
+    <Compile Include="StockChart\Utils\Enum.cs" />
+    <Compile Include="StockChart\Utils\Extensions.cs" />
+    <Compile Include="StockChart\Utils\Extensions.SL.cs" />
+    <Compile Include="StockChart\Utils\Formatter.cs" />
+    <Compile Include="StockChart\Utils\Mouse.cs" />
+    <Compile Include="StockChart\Utils\PngEncoder.cs" />
+    <Compile Include="StockChart\Utils\Point.cs" />
+    <Compile Include="StockChart\Utils\Resources.cs" />
+    <Compile Include="StockChart\Utils\SortedList.cs" />
+    <Compile Include="StockChart\Utils\StringToPathGeometryConverter.cs" />
+    <Compile Include="StockChart\Utils\Types.cs" />
+    <Compile Include="StockChart\Utils\Utils.cs" />
+    <Compile Include="StockChart\Utils\XamlWriter.cs" />
+    <Compile Include="StockChart\Utils\XamlWriterSettings.cs" />
+    <Compile Include="Util\ColorDialog.xaml.cs">
+      <DependentUpon>ColorDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Util\ConfirmaExclusaoDialog.xaml.cs">
+      <DependentUpon>ConfirmaExclusaoDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Util\MensagemDialog.xaml.cs">
+      <DependentUpon>MensagemDialog.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\10.png" />
+    <Resource Include="Images\12.png" />
+    <Resource Include="Images\17.png" />
+    <Resource Include="Images\18.png" />
+    <Resource Include="Images\19.png" />
+    <Resource Include="Images\2.png" />
+    <Resource Include="Images\24.png" />
+    <Resource Include="Images\8.png" />
+    <Resource Include="Images\Add.png" />
+    <Resource Include="Images\add2.png" />
+    <Resource Include="Images\aplicaTodos.png" />
+    <Resource Include="Images\btnFechar.png" />
+    <Resource Include="Images\btnTranfAlta.png" />
+    <Resource Include="Images\btnTranfBaixa.png" />
+    <Resource Include="Images\buy.png" />
+    <Resource Include="Images\Circulos.png" />
+    <Resource Include="Images\comentario.png" />
+    <Resource Include="Images\config.png" />
+    <Resource Include="Images\config2.png" />
+    <Resource Include="Images\darva.png" />
+    <Resource Include="Images\deleteInd.png" />
+    <Resource Include="Images\deleteObj.png" />
+    <Resource Include="Images\DeleteRed.png" />
+    <Resource Include="Images\edit.png" />
+    <Resource Include="Images\EditInd.png" />
+    <Resource Include="Images\EditObj.png" />
+    <Resource Include="Images\ExitLong.png" />
+    <Resource Include="Images\ExitShort.png" />
+    <Resource Include="Images\fullscreen.png" />
+    <Resource Include="Images\GannFan.png" />
+    <Resource Include="Images\Graph.png" />
+    <Resource Include="Images\icone_help.png" />
+    <Resource Include="Images\Interrogacao.png" />
+    <Resource Include="Images\logo.png" />
+    <Resource Include="Images\lupa.png" />
+    <Resource Include="Images\magnet.png" />
+    <Resource Include="Images\quadrantlines.png" />
+    <Resource Include="Images\Raff Regresion.png" />
+    <Resource Include="Images\regua.png" />
+    <Resource Include="Images\reload.png" />
+    <Resource Include="Images\Reta Vertical.png" />
+    <Resource Include="Images\Retangulo.png" />
+    <Resource Include="Images\retrac.png" />
+    <Resource Include="Images\save_as.png" />
+    <Resource Include="Images\sell.png" />
+    <Resource Include="Images\SignalPrice.png" />
+    <Resource Include="Images\texto.png" />
+    <Resource Include="Images\Tirone Levels.png" />
+    <Resource Include="Images\TrashInd.png" />
+    <Resource Include="Images\TrashObj.png" />
+    <Resource Include="Images\Zoom-in2.png" />
+    <Resource Include="Images\Zoom-out2.png" />
+    <Resource Include="Images\zoomArea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Configuracao\ConfiguraTexto.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Configuracao\ConfiguraDarvaBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Configuracao\ConfiguraErrorChannel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Configuracao\ConfiguraFibonacciRetracement.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Configuracao\ConfiguracaoIndicador.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Configuracao\ConfiguraObjeto.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Configuracao\ConfiguraSerie.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Configuracao\ConfiguraGrafico.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Configuracao\SelecaoPainel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Main\Grafico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Main\GraficoMini.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Outros\ComentarioDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Outros\Sobre.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StockChart\ChartElementProperties\ColorPropertyPresenter.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StockChart\ChartElementProperties\PropertiesDialogContent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StockChart\Controls\ColorDialogInternal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StockChart\Indicator\IndicatorDialogInternal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StockChart\LineStudies\LineStudyContextMenu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Util\ColorDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Util\ConfirmaExclusaoDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Util\MensagemDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\heat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\clock1.png" />
+    <Resource Include="Images\clock10.png" />
+    <Resource Include="Images\clock15.png" />
+    <Resource Include="Images\clock1h.png" />
+    <Resource Include="Images\clock2h.png" />
+    <Resource Include="Images\clock30.png" />
+    <Resource Include="Images\clock5.png" />
+    <Resource Include="Images\clockD.png" />
+    <Resource Include="Images\clockM.png" />
+    <Resource Include="Images\clockS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\clock2.png" />
+    <Resource Include="Images\clock3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\excelChart.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

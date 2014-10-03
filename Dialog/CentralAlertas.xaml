@@ -1,0 +1,90 @@
+﻿<controls:ChildWindow x:Class="Traderdata.Client.TerminalWEB.Dialog.CentralAlertas"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+            xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"                        
+           Width="803" Height="460" 
+           Title="Alertas de Preços">
+    <Border Width="776" Height="419" CornerRadius="5" BorderBrush="Gray" BorderThickness="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Border.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="LightGray" />
+                <GradientStop Color="Silver" Offset="1" />
+            </LinearGradientBrush>
+        </Border.Background>
+        <Grid>
+
+            <!-- Painel Carregando -->
+            <Border Name="pnlCarregando" Visibility="Collapsed" CornerRadius="5" BorderBrush="Gray" BorderThickness="2" Canvas.ZIndex="5" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Border.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFF" />
+                        <GradientStop Color="Silver" Offset="1" />
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel>
+                    <Image HorizontalAlignment="Center" Width="220" Height="60" Source="/Images/logo_painel.png"/>
+                    <TextBlock Foreground="Black" HorizontalAlignment="Center" Margin="0,0,0,7" Name="lblCarregando">Carregando dados...</TextBlock>
+                </StackPanel>
+            </Border>
+
+            <StackPanel>
+                <StackPanel Height="35" VerticalAlignment="Top" Orientation="Horizontal">
+                    <StackPanel.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Silver"/>
+                            <GradientStop Color="Silver" Offset="1"/>
+                            <GradientStop Color="WhiteSmoke" Offset="0.394"/>
+                            <GradientStop Color="WhiteSmoke" Offset="0.417"/>
+                        </LinearGradientBrush>
+                    </StackPanel.Background>
+                    <TextBlock Text="Alertas de Preço" TextWrapping="Wrap" VerticalAlignment="Center" Foreground="Black" TextAlignment="Center" FontSize="12" Width="774"/>
+                </StackPanel>
+                <StackPanel x:Name="stackCampos" Orientation="Horizontal" Height="338">
+                    <StackPanel x:Name="stackCampos2" Height="312" Margin="10,10,10,10" Width="750">
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+                            <sdk:DataGrid x:Name="gridAlertas" IsReadOnly="True" AutoGenerateColumns="False" Height="312" Width="750">
+                                <sdk:DataGrid.Columns>
+                                    <sdk:DataGridTextColumn Header=" Ativo" Binding="{Binding Ativo}"  Width="70"  />
+                                    <sdk:DataGridTextColumn Header=" Valor" Binding="{Binding PrecoAlvo}"  Width="70"  />
+                                    <sdk:DataGridTextColumn Header=" Variação" Binding="{Binding Percentual}"  Width="80"  />
+                                    <sdk:DataGridTextColumn Header=" Mensagem" Binding="{Binding Mensagem}"  Width="150*"  />
+                                    <sdk:DataGridTextColumn Header=" Ação" Binding="{Binding Acao}"  Width="150*"  />
+                                </sdk:DataGrid.Columns>
+                            </sdk:DataGrid>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,0" Height="40" HorizontalAlignment="Stretch">
+                    <StackPanel.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Silver"/>
+                            <GradientStop Color="Silver" Offset="1"/>
+                            <GradientStop Color="WhiteSmoke" Offset="0.394"/>
+                            <GradientStop Color="WhiteSmoke" Offset="0.417"/>
+                        </LinearGradientBrush>
+                    </StackPanel.Background>
+
+                    <Button x:Name="btnAdicionarAlerta" Content="Adicionar Alerta" Width="130" Height="23" Margin="10,0,10,0" Click="btnAdicionarAlerta_Click">
+                        <Button.Effect>
+                            <DropShadowEffect/>
+                        </Button.Effect>
+                    </Button>
+                    
+                    <Button x:Name="btnAlterarAlerta" Content="Alterar Alerta" Width="130" Height="23" Margin="10,0,10,0" Click="btnAlterarAlerta_Click">
+                        <Button.Effect>
+                            <DropShadowEffect/>
+                        </Button.Effect>
+                    </Button>
+
+                    <Button x:Name="btnRemoverAlerta" Content="Remover Alerta" Width="130" Height="23" Margin="10,0,10,0" Click="btnRemoverAlerta_Click">
+                        <Button.Effect>
+                            <DropShadowEffect/>
+                        </Button.Effect>
+                    </Button>
+
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Border>
+</controls:ChildWindow>

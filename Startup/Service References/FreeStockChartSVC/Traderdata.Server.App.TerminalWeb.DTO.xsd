@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/Traderdata.Server.App.TerminalWeb.DTO" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Traderdata.Server.App.TerminalWeb.DTO" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ConfiguracaoPadraoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Cliente" nillable="true" type="tns:ClienteDTO" />
+      <xs:element minOccurs="0" name="Configuracao" nillable="true" type="tns:ConfiguracaoGraficoDTO" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ConfiguracaoPadraoDTO" nillable="true" type="tns:ConfiguracaoPadraoDTO" />
+  <xs:complexType name="ClienteDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClienteDTO" nillable="true" type="tns:ClienteDTO" />
+  <xs:complexType name="ConfiguracaoGraficoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ConfigFiboRetracements" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorBordaCandleAlta" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorBordaCandleBaixa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorCandleAlta" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorCandleBaixa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorFundo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorIndicador" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorIndicadorAux1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorIndicadorAux2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorObjeto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DarvaBox" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="EspacoADireitaDoGrafico" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="EstiloBarra" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="EstiloPreco" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="EstiloPrecoParam1" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="EstiloPrecoParam2" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="GradeHorizontal" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="GradeVertical" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="GrossuraIndicadorAux1" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="GrossuraIndicadorAux2" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="GrossuraObjeto" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="LinhaMagnetica" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="LinhaTendenciaInfinita" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="PainelInfo" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="PosicaoEscala" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="PrecisaoEscala" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TipoEscala" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TipoLinhaIndicador" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TipoLinhaIndicadorAux1" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TipoLinhaIndicadorAux2" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TipoLinhaObjeto" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TipoVolume" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UsarCoresAltaBaixaVolume" nillable="true" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ConfiguracaoGraficoDTO" nillable="true" type="tns:ConfiguracaoGraficoDTO" />
+  <xs:complexType name="AreaTrabalhoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ClienteId" type="xs:int" />
+      <xs:element minOccurs="0" name="Graficos" nillable="true" type="tns:ArrayOfGraficoDTO" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AreaTrabalhoDTO" nillable="true" type="tns:AreaTrabalhoDTO" />
+  <xs:complexType name="ArrayOfGraficoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GraficoDTO" nillable="true" type="tns:GraficoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGraficoDTO" nillable="true" type="tns:ArrayOfGraficoDTO" />
+  <xs:complexType name="GraficoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AreaTrabalho" nillable="true" type="tns:AreaTrabalhoDTO" />
+      <xs:element minOccurs="0" name="Ativo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Comentario" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Configuracao" nillable="true" type="tns:ConfiguracaoGraficoDTO" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Indicadores" nillable="true" type="tns:ArrayOfIndicadorDTO" />
+      <xs:element minOccurs="0" name="Objetos" nillable="true" type="tns:ArrayOfObjetoEstudoDTO" />
+      <xs:element minOccurs="0" name="Periodicidade" type="xs:int" />
+      <xs:element minOccurs="0" name="Periodo" type="xs:int" />
+      <xs:element minOccurs="0" name="UsuarioId" type="xs:int" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="GraficoDTO" nillable="true" type="tns:GraficoDTO" />
+  <xs:complexType name="ArrayOfIndicadorDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="IndicadorDTO" nillable="true" type="tns:IndicadorDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfIndicadorDTO" nillable="true" type="tns:ArrayOfIndicadorDTO" />
+  <xs:complexType name="IndicadorDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AlturaPainel" type="xs:double" />
+      <xs:element minOccurs="0" name="Cor" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorFilha1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CorFilha2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Espessura" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="EspessuraFilha1" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="EspessuraFilha2" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IndexPainel" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="PainelAbaixoPreco" type="xs:boolean" />
+      <xs:element minOccurs="0" name="PainelIndicador" type="xs:boolean" />
+      <xs:element minOccurs="0" name="PainelPreco" type="xs:boolean" />
+      <xs:element minOccurs="0" name="PainelVolume" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Parametros" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StatusPainel" type="xs:int" />
+      <xs:element minOccurs="0" name="TipoIndicador" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TipoLinha" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TipoLinhaFilha1" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TipoLinhaFilha2" nillable="true" type="xs:int" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="IndicadorDTO" nillable="true" type="tns:IndicadorDTO" />
+  <xs:complexType name="ArrayOfObjetoEstudoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ObjetoEstudoDTO" nillable="true" type="tns:ObjetoEstudoDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfObjetoEstudoDTO" nillable="true" type="tns:ArrayOfObjetoEstudoDTO" />
+  <xs:complexType name="ObjetoEstudoDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CorObjeto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DataFinal" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DataInicial" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Espessura" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Grafico" nillable="true" type="tns:GraficoDTO" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IndexPainel" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="InfinitaADireita" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Magnetica" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="PainelIndicador" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Parametros" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RecordFinal" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="RecordInicial" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Resistencia" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Suporte" type="xs:boolean" />
+      <xs:element minOccurs="0" name="TamanhoTexto" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Texto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TipoLinha" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TipoObjeto" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ValorErrorChannel" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ValorFinal" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="ValorInicial" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="X1" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="X2" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Y1" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Y2" nillable="true" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ObjetoEstudoDTO" nillable="true" type="tns:ObjetoEstudoDTO" />
+  <xs:complexType name="TemplateDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ClienteId" type="xs:int" />
+      <xs:element minOccurs="0" name="Configuracao" nillable="true" type="tns:ConfiguracaoGraficoDTO" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Indicadores" nillable="true" type="tns:ArrayOfIndicadorDTO" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Periodicidade" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Periodo" nillable="true" type="xs:int" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="TemplateDTO" nillable="true" type="tns:TemplateDTO" />
+  <xs:complexType name="ArrayOfTemplateDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TemplateDTO" nillable="true" type="tns:TemplateDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTemplateDTO" nillable="true" type="tns:ArrayOfTemplateDTO" />
+  <xs:complexType name="UsuarioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ativo" type="xs:int" />
+      <xs:element minOccurs="0" name="Bairro" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CEP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CPF" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Celular" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Cidade" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DataFinalBMF" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DataFinalBovespa" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DataFinalTrial" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DataInicioBMF" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DataInicioBovespa" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DesejoReceberEmail" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Endereco" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Estado" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Guid" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Identidade" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Logado" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pais" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Perfil" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Senha" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sexo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Telefone" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UsuarioDTO" nillable="true" type="tns:UsuarioDTO" />
+  <xs:complexType name="ArrayOfUsuarioDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UsuarioDTO" nillable="true" type="tns:UsuarioDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUsuarioDTO" nillable="true" type="tns:ArrayOfUsuarioDTO" />
+  <xs:complexType name="ArrayOfInteresseAnaliseDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="InteresseAnaliseDTO" nillable="true" type="tns:InteresseAnaliseDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfInteresseAnaliseDTO" nillable="true" type="tns:ArrayOfInteresseAnaliseDTO" />
+  <xs:complexType name="InteresseAnaliseDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ativo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="PublicadorId" type="xs:int" />
+      <xs:element minOccurs="0" name="UsuarioId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="InteresseAnaliseDTO" nillable="true" type="tns:InteresseAnaliseDTO" />
+  <xs:complexType name="AnaliseCompartilhadaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ativo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CaminhoImagem" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Comentario" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Data" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DispararEmail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GraficoId" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="PublicoPrivado" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UsuarioId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AnaliseCompartilhadaDTO" nillable="true" type="tns:AnaliseCompartilhadaDTO" />
+  <xs:complexType name="ArrayOfAnaliseCompartilhadaDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AnaliseCompartilhadaDTO" nillable="true" type="tns:AnaliseCompartilhadaDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAnaliseCompartilhadaDTO" nillable="true" type="tns:ArrayOfAnaliseCompartilhadaDTO" />
+</xs:schema>

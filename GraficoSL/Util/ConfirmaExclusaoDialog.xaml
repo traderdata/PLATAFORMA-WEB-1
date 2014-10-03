@@ -1,0 +1,83 @@
+﻿<basics:ChildWindow
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:basics="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d" xmlns:inputToolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Input.Toolkit"
+	x:Class="Traderdata.Client.Componente.GraficoSL.Util.ConfirmaExclusaoDialog"
+	HasCloseButton="False" BorderBrush="{x:Null}"
+	Width="340" Height="160" >
+
+    <Border CornerRadius="5" BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Border.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF181919" />
+                <GradientStop Color="#FF45464b" Offset="1" />
+            </LinearGradientBrush>
+        </Border.Background>
+
+        <Grid>
+            <StackPanel>
+                <StackPanel Height="35" VerticalAlignment="Top"  Orientation="Horizontal">
+                    <StackPanel.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF4C4C4C"/>
+                            <GradientStop Color="#FF333538" Offset="1"/>
+                            <GradientStop Color="#FF3C3D3F" Offset="0.394"/>
+                            <GradientStop Color="#FF151516" Offset="0.417"/>
+                        </LinearGradientBrush>
+                    </StackPanel.Background>
+                    <TextBlock x:Name="lblTitulo" Text="Confirmação" TextWrapping="Wrap" VerticalAlignment="Center" Foreground="White" Width="317" TextAlignment="Center" FontSize="12"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical" Height="72">
+
+
+                    <!-- Valor -->
+                    <StackPanel Grid.Row="1" Margin="0,10,0,0" Orientation="Horizontal">
+                        <Image Height="40" Width="40" Source="/../Images/Interrogacao.png" Stretch="Fill" Margin="5,0,0,0"/>
+                        <TextBlock x:Name="lblMsg" VerticalAlignment="Center" Foreground="White" Margin="0,0,0,0" Width="266" TextWrapping="Wrap" TextAlignment="Center" Text="Confirma a exclusão de todos os Indicadores?"/>
+						
+                    </StackPanel>
+
+                    <!-- Cor -->
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,-9,0,0" Height="40" Width="318" HorizontalAlignment="Left">
+
+                    <StackPanel.Background>
+
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+
+                            <GradientStop Color="#FF4C4C4C"/>
+
+                            <GradientStop Color="#FF333538" Offset="1"/>
+
+                            <GradientStop Color="#FF3C3D3F" Offset="0.394"/>
+
+                            <GradientStop Color="#FF151516" Offset="0.417"/>
+
+                        </LinearGradientBrush>
+
+                    </StackPanel.Background>
+
+
+
+                    <Button x:Name="OKButton" Content="Sim" Width="75" Height="23" Margin="150,0,10,0" Click="OKButton_Click" >
+                        <Button.Effect>
+                            <DropShadowEffect/>
+                        </Button.Effect>
+                    </Button>
+                    <Button x:Name="CancelButton" Content="Não" Width="75" Height="23" Margin="0,9,10,8" Click="CancelButton_Click">
+                        <Button.Effect>
+                            <DropShadowEffect/>
+                        </Button.Effect>
+                    </Button>
+
+                </StackPanel>
+
+                <!-- Stack Panel Rodapé -->
+            </StackPanel>
+        </Grid>
+    </Border>
+
+</basics:ChildWindow>

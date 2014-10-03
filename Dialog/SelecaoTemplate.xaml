@@ -1,0 +1,138 @@
+﻿<controls:ChildWindow x:Class="Traderdata.Client.TerminalWEB.Dialog.SelecaoTemplate"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+           Width="400" Height="Auto" 
+           Title="Selecione uma template">
+   <Border CornerRadius="5" BorderBrush="Gray" BorderThickness="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Border.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="LightGray" />
+                <GradientStop Color="Silver" Offset="1" />
+            </LinearGradientBrush>
+        </Border.Background>
+        
+        <Grid>
+            <StackPanel>
+                <StackPanel Height="35" VerticalAlignment="Top"  Orientation="Horizontal">
+                    <StackPanel.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Silver"/>
+                            <GradientStop Color="Silver" Offset="1"/>
+                            <GradientStop Color="WhiteSmoke" Offset="0.394"/>
+                            <GradientStop Color="WhiteSmoke" Offset="0.417"/>
+                        </LinearGradientBrush>
+                    </StackPanel.Background>
+                    <TextBlock Text="" x:Name="lblTitulo" TextWrapping="Wrap" VerticalAlignment="Center" Foreground="Black" Width="377" TextAlignment="Center" FontSize="12"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="20,10,20,0" Height="40" >
+				<TextBlock TextAlignment="Right" Foreground="Black" Margin="30,12" Height="16">Nome:</TextBlock>
+				<ComboBox x:Name="cmbTemplate" Width="200" Height="23"></ComboBox>
+                    <!-- Valor -->
+                    <StackPanel Grid.Row="1" Margin="0,10,0,0" Orientation="Horizontal"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,11,0,0" Height="40" Width="378" HorizontalAlignment="Left">
+
+                    <StackPanel.Background>
+
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+
+                            <GradientStop Color="Silver"/>
+
+                            <GradientStop Color="Silver" Offset="1"/>
+
+                            <GradientStop Color="WhiteSmoke" Offset="0.394"/>
+
+                            <GradientStop Color="WhiteSmoke" Offset="0.417"/>
+
+                        </LinearGradientBrush>
+
+                    </StackPanel.Background>
+
+
+                    <Button x:Name="OKButton" Click="OKButton_Click" Margin="10,0,0,0" Width="102" Height="31" MouseEnter="btn_Enter" MouseLeave="btn_Leave">
+                        <Button.Resources>
+                            <Style x:Key="ButtonStyle1" TargetType="Button">
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="Button">
+                                            <Grid>
+                                                <VisualStateManager.VisualStateGroups>
+                                                    <VisualStateGroup x:Name="FocusStates">
+                                                        <VisualState x:Name="Focused"/>
+                                                        <VisualState x:Name="Unfocused"/>
+                                                    </VisualStateGroup>
+                                                    <VisualStateGroup x:Name="CommonStates">
+                                                        <VisualState x:Name="Normal"/>
+                                                        <VisualState x:Name="MouseOver"/>
+                                                        <VisualState x:Name="Pressed"/>
+                                                        <VisualState x:Name="Disabled"/>
+                                                    </VisualStateGroup>
+                                                </VisualStateManager.VisualStateGroups>
+                                                <Image Source="/Images/OK.png" Height="31" Width="102"/>
+                                                <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                            </Grid>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Button.Resources>
+                        <Button.Style>
+                            <StaticResource ResourceKey="ButtonStyle1" />
+                        </Button.Style>
+                    </Button>
+
+                    <Button x:Name="CancelButton" Click="CancelButton_Click" Margin="10,0,0,0" Width="102" Height="31" MouseEnter="btn_Enter" MouseLeave="btn_Leave">
+                        <Button.Resources>
+                            <Style x:Key="ButtonStyle1" TargetType="Button">
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="Button">
+                                            <Grid>
+                                                <VisualStateManager.VisualStateGroups>
+                                                    <VisualStateGroup x:Name="FocusStates">
+                                                        <VisualState x:Name="Focused"/>
+                                                        <VisualState x:Name="Unfocused"/>
+                                                    </VisualStateGroup>
+                                                    <VisualStateGroup x:Name="CommonStates">
+                                                        <VisualState x:Name="Normal"/>
+                                                        <VisualState x:Name="MouseOver"/>
+                                                        <VisualState x:Name="Pressed"/>
+                                                        <VisualState x:Name="Disabled"/>
+                                                    </VisualStateGroup>
+                                                </VisualStateManager.VisualStateGroups>
+                                                <Image Source="/Images/Cancelar.png" Height="31" Width="102"/>
+                                                <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                            </Grid>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Button.Resources>
+                        <Button.Style>
+                            <StaticResource ResourceKey="ButtonStyle1" />
+                        </Button.Style>
+                    </Button>
+
+                    <!--
+                    <Button x:Name="OKButton" Content="OK" Width="75" Height="23" Margin="200,0,10,0" Click="OKButton_Click" >
+                        <Button.Effect>
+                            <DropShadowEffect/>
+                        </Button.Effect>
+                    </Button>
+                    <Button x:Name="CancelButton" Content="Cancel" Width="75" Height="23" Margin="0,9,10,8" Click="CancelButton_Click">
+                        <Button.Effect>
+                            <DropShadowEffect/>
+                        </Button.Effect>
+                    </Button>
+                    -->
+
+
+                </StackPanel>
+
+                <!-- Stack Panel Rodapé -->
+            </StackPanel>
+        </Grid>
+    </Border>
+</controls:ChildWindow>

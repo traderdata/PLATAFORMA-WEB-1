@@ -1,0 +1,83 @@
+﻿<basics:ChildWindow
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:basics="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d" xmlns:inputToolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Input.Toolkit"
+	x:Class="Traderdata.Client.Componente.GraficoSL.Util.MensagemDialog"
+	HasCloseButton="False" BorderBrush="{x:Null}"
+	Width="340" Height="160" >
+
+    <Border CornerRadius="5" BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Border.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF181919" />
+                <GradientStop Color="#FF45464b" Offset="1" />
+            </LinearGradientBrush>
+        </Border.Background>
+
+        <Grid>
+            <StackPanel>
+                <StackPanel Height="35" VerticalAlignment="Top"  Orientation="Horizontal">
+                    <StackPanel.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF4C4C4C"/>
+                            <GradientStop Color="#FF333538" Offset="1"/>
+                            <GradientStop Color="#FF3C3D3F" Offset="0.394"/>
+                            <GradientStop Color="#FF151516" Offset="0.417"/>
+                        </LinearGradientBrush>
+                    </StackPanel.Background>
+                    <TextBlock Text="Atenção!" TextWrapping="Wrap" VerticalAlignment="Center" Foreground="White" Width="317" TextAlignment="Center" FontSize="12"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical" Height="72">
+
+
+                    <!-- Valor -->
+                    <!--  <StackPanel Grid.Row="1" Margin="0,10,0,0" Orientation="Horizontal">-->
+                    <ScrollViewer Margin="63,0,0,0" BorderThickness="0" Height="61" BorderBrush="{x:Null}" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                        <TextBlock x:Name="lblMsg"  Foreground="White" TextWrapping="Wrap" Text="Mensagem de notificação!" />
+                    </ScrollViewer>
+
+                    <Image x:Name="imgIcone" Height="40"  Width="40" Source="imgs/Erro.png" Stretch="Fill" Margin="-135,-60,134,0"/>
+
+                    <!--    </StackPanel> -->
+
+                    <!-- Cor -->
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,-9,0,0" Height="40" Width="318" HorizontalAlignment="Left">
+
+                    <StackPanel.Background>
+
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+
+                            <GradientStop Color="#FF4C4C4C"/>
+
+                            <GradientStop Color="#FF333538" Offset="1"/>
+
+                            <GradientStop Color="#FF3C3D3F" Offset="0.394"/>
+
+                            <GradientStop Color="#FF151516" Offset="0.417"/>
+
+                        </LinearGradientBrush>
+
+                    </StackPanel.Background>
+
+
+
+                    <Button x:Name="OKButton" Content="Ok"  Width="75" Height="23" Margin="230,0,10,0" Click="CancelButton_Click" >
+                        <Button.Effect>
+                            <DropShadowEffect/>
+                        </Button.Effect>
+                    </Button>
+
+
+
+                </StackPanel>
+
+
+            </StackPanel>
+        </Grid>
+    </Border>
+
+</basics:ChildWindow>

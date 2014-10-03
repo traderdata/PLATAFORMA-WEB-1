@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Traderdata.Server.Core.DTO" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Traderdata.Server.Core.DTO" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfCotacaoServerDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CotacaoServerDTO" nillable="true" type="tns:CotacaoServerDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCotacaoServerDTO" nillable="true" type="tns:ArrayOfCotacaoServerDTO" />
+  <xs:complexType name="CotacaoServerDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Abertura" type="xs:double" />
+      <xs:element minOccurs="0" name="AfterMarket" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Data" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Hora" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Maximo" type="xs:double" />
+      <xs:element minOccurs="0" name="Minimo" type="xs:double" />
+      <xs:element minOccurs="0" name="Quantidade" type="xs:double" />
+      <xs:element minOccurs="0" name="Ultimo" type="xs:double" />
+      <xs:element minOccurs="0" name="Volume" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CotacaoServerDTO" nillable="true" type="tns:CotacaoServerDTO" />
+</xs:schema>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="958dca5e-9d6b-4c45-bfa8-bbe38698b372" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://54.204.8.192/traderdatalite/TraderdataLiteService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TraderdataLiteService1.disco" MetadataType="Disco" ID="b4ac00ba-a709-46b9-9b73-3b1d33e1c3f0" SourceId="1" SourceUrl="http://54.204.8.192/traderdatalite/TraderdataLiteService.svc?disco" />
+    <MetadataFile FileName="TraderdataLiteService4.xsd" MetadataType="Schema" ID="c2f03f60-70bf-4cf9-8dcd-540fb617bbed" SourceId="1" SourceUrl="http://54.204.8.192/traderdatalite/TraderdataLiteService.svc?xsd=xsd2" />
+    <MetadataFile FileName="TraderdataLiteService41.xsd" MetadataType="Schema" ID="2bbe954b-a68c-4f51-876e-831a9eb64d0d" SourceId="1" SourceUrl="http://54.204.8.192/traderdatalite/TraderdataLiteService.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="2d6623f6-8dff-4a81-acf0-b2d8d8112955" SourceId="1" SourceUrl="http://54.204.8.192/traderdatalite/TraderdataLiteService.svc?wsdl" />
+    <MetadataFile FileName="TraderdataLiteService42.xsd" MetadataType="Schema" ID="f86cca5c-bc6d-406d-b16d-fbf2b5af9ab6" SourceId="1" SourceUrl="http://54.204.8.192/traderdatalite/TraderdataLiteService.svc?xsd=xsd3" />
+    <MetadataFile FileName="TraderdataLiteService43.xsd" MetadataType="Schema" ID="1bce89e1-a74c-4c9c-af63-d60f53692f42" SourceId="1" SourceUrl="http://54.204.8.192/traderdatalite/TraderdataLiteService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
