@@ -586,3 +586,17 @@ C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\TD.APP.TERMINALWEB.g.resources
 C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\TD.APP.TERMINALWEB.dll
 C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\TD.APP.TERMINALWEB.pdb
 C:\Backup\GITHUB\PLATAFORMA-WEB-1\obj\Debug\XapCacheFile.xml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\System.Windows.Interactivity.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\System.ServiceModel.Extensions.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\System.ServiceModel.Extensions.xml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\de\System.ServiceModel.Extensions.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\es\System.ServiceModel.Extensions.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\fr\System.ServiceModel.Extensions.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\it\System.ServiceModel.Extensions.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\ja\System.ServiceModel.Extensions.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\ko\System.ServiceModel.Extensions.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\ru\System.ServiceModel.Extensions.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\zh-Hans\System.ServiceModel.Extensions.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\zh-Hant\System.ServiceModel.Extensions.resources.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\FTG.Silverlight.Google.Analytics_SL5.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Bin\Debug\FTG.Silverlight.Google.Analytics_SL5.xml

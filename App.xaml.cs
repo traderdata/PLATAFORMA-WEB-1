@@ -134,6 +134,10 @@ namespace Traderdata.Client.TerminalWEB
                     ServiceWCF.RTURLHost = e.InitParams["rthost"].ToString();
                     ServiceWCF.HS = "";
                     ServiceWCF.ID = e.InitParams["usr"].ToString();
+                    ServiceWCF.GoogleAnalytics = e.InitParams["ga"].ToString();
+
+                    if (e.InitParams.ContainsKey("crc"))
+                        ServiceWCF.AgoraCRC = e.InitParams["crc"];
                     
                     ServiceWCF.AbrirCompra = false;
                     ServiceWCF.BovespaRT = Convert.ToBoolean(e.InitParams["bovespart"].ToString());

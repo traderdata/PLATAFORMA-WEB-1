@@ -24,3 +24,12 @@ C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Startup\obj\Debug\StartupTerm
 C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Startup\obj\Debug\StartupTerminalWeb.g.resources
 C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Startup\obj\Debug\StartupTerminalWeb.dll
 C:\Backup\Projetos2012\CLIENT\TERMINAL-WEB - Copia\Startup\obj\Debug\StartupTerminalWeb.pdb
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Startup\bin\StartupTerminalWeb.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Startup\bin\StartupTerminalWeb.pdb
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Startup\bin\SharpZipLib.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Startup\obj\Debug\StartupTerminalWeb.csprojResolveAssemblyReference.cache
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Startup\obj\Debug\SplashScreenFator.baml
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Startup\obj\Debug\StartupTerminalWeb_MarkupCompile.cache
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Startup\obj\Debug\StartupTerminalWeb.g.resources
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Startup\obj\Debug\StartupTerminalWeb.dll
+C:\Backup\GITHUB\PLATAFORMA-WEB-1\Startup\obj\Debug\StartupTerminalWeb.pdb

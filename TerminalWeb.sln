@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerminalWebClient", "Termin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraficoSL", "GraficoSL\GraficoSL.csproj", "{D983D5C9-294F-4DC4-B8F4-9FD4618A6DBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegracaoHB", "IntegracaoHB\IntegracaoHB.csproj", "{D72A7B90-47C0-4801-919D-49332A02E401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartupTerminalWeb", "Startup\StartupTerminalWeb.csproj", "{41600BA7-F820-4EAF-ADA7-8DA8130BEF95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{D983D5C9-294F-4DC4-B8F4-9FD4618A6DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D983D5C9-294F-4DC4-B8F4-9FD4618A6DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D983D5C9-294F-4DC4-B8F4-9FD4618A6DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D72A7B90-47C0-4801-919D-49332A02E401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72A7B90-47C0-4801-919D-49332A02E401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72A7B90-47C0-4801-919D-49332A02E401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72A7B90-47C0-4801-919D-49332A02E401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41600BA7-F820-4EAF-ADA7-8DA8130BEF95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41600BA7-F820-4EAF-ADA7-8DA8130BEF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41600BA7-F820-4EAF-ADA7-8DA8130BEF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41600BA7-F820-4EAF-ADA7-8DA8130BEF95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

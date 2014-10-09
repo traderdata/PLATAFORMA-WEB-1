@@ -22,6 +22,8 @@ using FM.WebSync.Silverlight.Core;
 using System.Globalization;
 using System.ComponentModel;
 using System.IO;
+using FTG.Silverlight.Google.Analytics;
+using System.Windows.Browser;
 
 namespace Traderdata.Client.TerminalWEB
 {
@@ -215,13 +217,11 @@ namespace Traderdata.Client.TerminalWEB
                 timerAssinatura.Tick += new EventHandler(timerAssinatura_Tick);
                 timerAssinatura.Start();
 
-                ////if (ServiceWCF.Ambiente != "HML")
-                //{
-                //    //Iniciando o time de assinatura
-                //    timerPing.Interval = new TimeSpan(0, 1, 0);
-                //    timerPing.Tick += new EventHandler(timerPing_Tick);
-                //    timerPing.Start();
-                //}
+                //Iniciando o time de assinatura
+                timerPing.Interval = new TimeSpan(0, 1, 0);
+                timerPing.Tick += new EventHandler(timerPing_Tick);
+                timerPing.Start();
+                
                 timerUpdate.Interval = new TimeSpan(0, 0, 1);
                 timerUpdate.Tick += new EventHandler(timerUpdate_Tick);
                 timerUpdate.Start();
@@ -315,9 +315,10 @@ namespace Traderdata.Client.TerminalWEB
         }
 
         void timerPing_Tick(object sender, EventArgs e)
-        {
-            //baseTerminalWebSVC.PingAsync(ServiceWCF.userHB);
-//            baseLogService.PingAsync(ServiceWCF.userHB, "TW-" + ServiceWCF.MacroCliente);
+        {            
+            //track page
+            HtmlPage.Window.Invoke("ga", new string[] { "create", ServiceWCF.GoogleAnalytics, "auto" }); 
+            HtmlPage.Window.Invoke("ga", new string[] { "send", "pageview" }); 
         }
 
 
@@ -358,6 +359,9 @@ namespace Traderdata.Client.TerminalWEB
         /// <param name="e"></param>
         private void LayoutRoot_Loaded(object sender, RoutedEventArgs e)
         {
+            //track page
+            Tracker.TrackPage("mypage");
+
             if (!ServiceWCF.Site)
                 CarregaLayoutInicial();
             else
@@ -3917,6 +3921,16 @@ namespace Traderdata.Client.TerminalWEB
             };
 
             dialog.Show();
+        }
+
+        private void mnuScannerDiario_Click(object sender, SourcedEventArgs e)
+        {
+            System.Windows.Browser.HtmlPage.Window.Navigate(new Uri(ServiceWCF.BaseAddress + "/DefaultScannerAgora.aspx?usr=" + ServiceWCF.ID + "&crc=" + ServiceWCF.AgoraCRC), "_new");
+        }
+
+        private void C1MenuItem_Click(object sender, SourcedEventArgs e)
+        {
+
         }
     }
 

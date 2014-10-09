@@ -39,12 +39,12 @@ namespace Startup
 
                 string ambiente = ConfigurationSettings.AppSettings["AMBIENTE"];
 
-                if (ambiente == "HML")
+                if ((ambiente == "HML") ||(usr=="felipe"))
                 {
                     //usr = ;
 
                     //apresentando o gráfico
-                    ApresentaGrafico(ativoDireto, Request.QueryString["usr"]);
+                    ApresentaGrafico(ativoDireto, usr, crc);
                     return;
                 }
 
@@ -71,7 +71,7 @@ namespace Startup
                 }
                 else
                 {
-                    ApresentaGrafico(ativoDireto, usr);
+                    ApresentaGrafico(ativoDireto, usr, crc);
                 }
             }
             catch (Exception exc)
@@ -80,7 +80,7 @@ namespace Startup
             }
         }
 
-        private void ApresentaGrafico(string ativoDireto, string usr)
+        private void ApresentaGrafico(string ativoDireto, string usr, string crc)
         {
             string alerta = ConfigurationSettings.AppSettings["ALERTA"];
             string dica = ConfigurationSettings.AppSettings["DICA"];
@@ -106,6 +106,7 @@ namespace Startup
             string download = ConfigurationSettings.AppSettings["CAMINHO-DOWNLOAD"];
             string simpletrader = ConfigurationSettings.AppSettings["SIMPLETRADER"];
             string soaMD = ConfigurationSettings.AppSettings["SOAMD"];
+            string ga = ConfigurationSettings.AppSettings["GA"];
 
             string periodicidade = "";
             if ((periodicidade == "") || (periodicidade == null))
@@ -127,7 +128,7 @@ namespace Startup
             Response.Write("</head><body><object data=\"data:application/x-silverlight-2,\" type=\"application/x-silverlight-2\" width=\"100%\" height=\"100%\">");
             Response.Write("<param name=\"source\" value=\"" + download + "/TerminalWeb.xap\"/>");
 
-            Response.Write("<param name=\"initParams\" value=\"soaurlMD=" + soaMD + ",periodicidade=" + periodicidade + ",simpletrader=" + simpletrader + ",ambiente=" + ambiente + ",marcadaguawidth=" + marcadaguawidth + ",marcadaguasize=" + marcadaguasize + ",marcadaguatop=" + marcadaguatop + ",marcadagualeft=" + marcadagualeft + ",marcadaguatexto=" + marcadaguatexto + ",baseaddress=https://agora.traderdata.com.br, ativodireto=" + ativoDireto + ", alerta=" + alerta + ", dica=" + dica + ", macrocliente=" + macrocliente + ", analisecompartilhada=" + analiseComprartilhada + ", linkmanual=" + linkmanual + ", linkvisualizacao=" + linkvisualizacao + ", suporte=" + suporte + ", corfundo=" + corfundo + ", bovespart=" + bovespaRT + ", bmfrt=" + bmfRT + ", rthost=" + rthost + ", rtport=" + rtport + ", deploy=CORRETORA, title=" + titulo + ", soaurl=" + soaurl + " , usr=" + usr + "\"");
+            Response.Write("<param name=\"initParams\" value=\"ga=" + ga + ",soaurlMD=" + soaMD + ",periodicidade=" + periodicidade + ",simpletrader=" + simpletrader + ",ambiente=" + ambiente + ",marcadaguawidth=" + marcadaguawidth + ",marcadaguasize=" + marcadaguasize + ",marcadaguatop=" + marcadaguatop + ",marcadagualeft=" + marcadagualeft + ",marcadaguatexto=" + marcadaguatexto + ",baseaddress=https://agora.traderdata.com.br, ativodireto=" + ativoDireto + ", alerta=" + alerta + ", dica=" + dica + ", macrocliente=" + macrocliente + ", analisecompartilhada=" + analiseComprartilhada + ", linkmanual=" + linkmanual + ", linkvisualizacao=" + linkvisualizacao + ", suporte=" + suporte + ", corfundo=" + corfundo + ", bovespart=" + bovespaRT + ", bmfrt=" + bmfRT + ", rthost=" + rthost + ", rtport=" + rtport + ", deploy=CORRETORA, title=" + titulo + ", soaurl=" + soaurl + " , usr=" + usr + ",crc=" + crc + "\"");
             Response.Write("<param name=\"onError\" value=\"onSilverlightError\" />");
             Response.Write("<param name=\"background\" value=\"white\" />");
             Response.Write("<param name=\"minRuntimeVersion\" value=\"4.0.50826.0\" />");

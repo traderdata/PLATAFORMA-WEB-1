@@ -7,6 +7,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
     mc:Ignorable="d" xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
     xmlns:controlsToolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Toolkit"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
     x:Class="Traderdata.Client.TerminalWEB.Principal"
     xmlns:C1="clr-namespace:C1.Silverlight;assembly=C1.Silverlight"
      SizeChanged="UserControl_SizeChanged">
@@ -49,20 +50,27 @@
         </Grid>
         
         <!-- Menu -->
-        <Grid VerticalAlignment="Top" Name="stpMenu" Height="30" Visibility="Collapsed">            
+        <Grid VerticalAlignment="Top" Name="stpMenu" Height="30" Visibility="Collapsed">
+            
             <C1:C1Menu x:Name="menu" Cursor="Hand" >
                 <C1:C1MenuItem Header="Arquivo" VerticalAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" FlowDirection="LeftToRight" >
                     <C1:C1MenuItem Header="Configuração Padrão" VerticalAlignment="Center" Name="mnuConfiguracaoPadrao" Click="mnuConfiguracaoPadrao_Click"  />
                     <!--<C1:C1MenuItem Header="Atualização Automática" VerticalAlignment="Center" Name="mnuAtualizacaoautomatica"  IsCheckable="True" />-->
                     <!--<C1:C1MenuItem Header="Sair" Name="mnuSair" VerticalAlignment="Center" Click="mnuSair_Click"  />-->
                 </C1:C1MenuItem>
-                <C1:C1MenuItem Header="Novo Gráfico" Name="mnuNovoGrafico" VerticalAlignment="Center" Click="mnuNovoGrafico_Click"  />
+                <C1:C1MenuItem Header="Novo Gráfico" Name="mnuNovoGrafico" VerticalAlignment="Center" Click="mnuNovoGrafico_Click"  />                    
                 <C1:C1MenuItem Header="Salvar Área de Trabalho" VerticalAlignment="Center" Name="mnuSalvarAT" Click="mnuSalvarAT_Click"  />
                 <C1:C1MenuItem Header="Template" VerticalAlignment="Center" >
                     <C1:C1MenuItem Header="Salvar" Name="mnuSalvarTemplate" VerticalAlignment="Center" Click="mnuSalvarTemplate_Click"  />
                     <C1:C1MenuItem Header="Aplicar" Name="mnuAplicarTemplate" VerticalAlignment="Center" Click="mnuAplicarTemplate_Click"  />
                     <C1:C1MenuItem Header="Excluir" Name="mnuExcluirTemplate" VerticalAlignment="Center" Click="mnuExcluirTemplate_Click"  />
                 </C1:C1MenuItem>
+                <C1:C1MenuItem Header="Scanner Técnico" VerticalAlignment="Center"  >
+                    <C1:C1MenuItem Header="Crie suas estratégias e seja avisado diariamente" Name="mnuScannerDiario" VerticalAlignment="Center" Click="mnuScannerDiario_Click" />
+                    <C1:C1MenuItem Header="Monitore diversas estratégias em tempo real" Name="mnuScannerRT" VerticalAlignment="Center"  Click="mnuScannerDiario_Click"/>
+                </C1:C1MenuItem>
+                <!--<C1:C1MenuItem Header="Teste suas estratégias" VerticalAlignment="Center" Click="C1MenuItem_Click" />-->
+                    
                 <C1:C1MenuItem Header="Ferramentas" Name="mnuFerramentas" VerticalAlignment="Center" Visibility="Collapsed" >
                     <C1:C1MenuItem Header="Alertas" Name="mnuAlertas" VerticalAlignment="Center" Click="mnuAlertas_Click"  />
                 </C1:C1MenuItem>                
@@ -85,9 +93,8 @@
                     </C1:C1MenuItem>
                     <C1:C1MenuItem Header="Sobre" Name="mnuSobre" VerticalAlignment="Center" Click="mnuSobre_Click"  />-->
                 </C1:C1MenuItem>
-                <!--<C1:C1MenuItem Header="Agenda de Proventos" Name="mnuProventos" VerticalAlignment="Center"  Click="mnuProventos_Click"/>-->
-                <!--<C1:C1MenuItem Header="Grafico 2.0" Name="mnuGrafico2" VerticalAlignment="Center"  Click="mnuGrafico2_Click"/>
-                <C1:C1MenuItem Header="Acesse o Terminal Desktop" Name="mnuTerminalDesktop" VerticalAlignment="Center"  Click="mnuTerminalDesktop_Click"/>-->
+                <C1:C1MenuItem Header="Grafico 2.0" Name="mnuGrafico2" VerticalAlignment="Center"  Click="mnuGrafico2_Click"/>
+                <!--<C1:C1MenuItem Header="Acesse o Terminal Desktop" Name="mnuTerminalDesktop" VerticalAlignment="Center"  Click="mnuTerminalDesktop_Click"/>-->
             </C1:C1Menu>
             <sdk:DescriptionViewer x:Name="hintUlytimoDado" Description="Último dado recebido" Margin="0,0,165,0" HorizontalAlignment="Right" />
             <TextBlock Text="00:00" Name="txtStatus" HorizontalAlignment="Right" Margin="0,0,130,0" VerticalAlignment="Center"/>

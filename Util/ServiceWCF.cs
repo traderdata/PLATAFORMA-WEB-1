@@ -18,6 +18,8 @@ namespace Traderdata.Client.TerminalWEB.Util
     {
         #region Variaveis static
 
+        public static string AgoraCRC { get; set; }
+        public static string GoogleAnalytics { get; set; }
         public static string SessID { get; set; }
         public static bool Site { get; set; }
         public static string Ambiente { get; set; }

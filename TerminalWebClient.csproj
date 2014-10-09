@@ -75,12 +75,16 @@
     <Reference Include="FM.WebSync.Silverlight.Core">
       <HintPath>..\..\..\Traderdata\Tecnologia\Websync\FM.WebSync.Silverlight.Core.dll</HintPath>
     </Reference>
+    <Reference Include="FTG.Silverlight.Google.Analytics_SL5">
+      <HintPath>..\..\..\Users\Felipe\Downloads\DownloadOld\SGA v.0.1.0.0\SGA v.0.1.0.0\sl50\FTG.Silverlight.Google.Analytics_SL5.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="SharpZipLib">
       <HintPath>..\..\..\Projetos2010\CLIENT\TERMINAL-WEB-2011\Bin\Debug\SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Extensions, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.ServiceModel.NetTcp, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Windows" />
     <Reference Include="system" />
@@ -93,6 +97,7 @@
     <Reference Include="System.Windows.Controls.Input.Toolkit, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Windows.Controls.Navigation, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Windows.Controls.Toolkit, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Interactivity, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Windows.Browser" />
   </ItemGroup>

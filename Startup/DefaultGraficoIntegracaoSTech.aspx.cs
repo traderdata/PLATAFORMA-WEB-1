@@ -23,7 +23,7 @@ namespace Startup
             //Resgatando o usuário e validando
             string sessId = Request["sessid"];
             string debug = Request["debug"];
-            string codCliente = Request["codcliente"];
+            string codCliente = Request["codcliente"];            
             string ativo = Request["ativo"];
             string periodicidade = Request["periodicidade"];
 
@@ -90,6 +90,8 @@ namespace Startup
                 string download = ConfigurationSettings.AppSettings["CAMINHO-DOWNLOAD"];
                 string simpletrader = ConfigurationSettings.AppSettings["SIMPLETRADER"];
                 string soaMD = ConfigurationSettings.AppSettings["SOAMD"];
+                string ga = ConfigurationSettings.AppSettings["GA"];
+
                 if ((periodicidade=="") || (periodicidade == null))
                     periodicidade = "1";
 
@@ -127,7 +129,7 @@ namespace Startup
                     Response.Write("<param name=\"onSourceDownloadProgressChanged\" value=\"DownloadProgress\" />");
                 }
 
-                Response.Write("<param name=\"initParams\" value=\"soaurlMD=" + soaMD + ",periodicidade=" + periodicidade + ",simpletrader=" + simpletrader + ",ambiente=" + ambiente + ",marcadaguawidth=" + marcadaguawidth + ",marcadaguasize=" + marcadaguasize + ",marcadaguatop=" + marcadaguatop + ",marcadagualeft=" + marcadagualeft + ",marcadaguatexto=" + marcadaguatexto + ",baseaddress=" + baseAddress + ", ativodireto=" + ativo + ",alerta=" + alerta + ", dica=" + dica + ", macrocliente=" + macrocliente + ", analisecompartilhada=" + analiseComprartilhada + ", linkmanual=" + linkmanual + ", linkvisualizacao=" + linkvisualizacao + ", suporte=" + suporte + ", corfundo=" + corfundo + ", bovespart=" + bovespaRT + ", bmfrt=" + bmfRT + ", rthost=" + rthost + ", rtport=" + rtport + ", deploy=CORRETORA, title=" + titulo + ", soaurl=" + soaurl + ",sessid=" + sessId + " , usr=" + codCliente + "\"");
+                Response.Write("<param name=\"initParams\" value=\"ga=" + ga + ",soaurlMD=" + soaMD + ",periodicidade=" + periodicidade + ",simpletrader=" + simpletrader + ",ambiente=" + ambiente + ",marcadaguawidth=" + marcadaguawidth + ",marcadaguasize=" + marcadaguasize + ",marcadaguatop=" + marcadaguatop + ",marcadagualeft=" + marcadagualeft + ",marcadaguatexto=" + marcadaguatexto + ",baseaddress=" + baseAddress + ", ativodireto=" + ativo + ",alerta=" + alerta + ", dica=" + dica + ", macrocliente=" + macrocliente + ", analisecompartilhada=" + analiseComprartilhada + ", linkmanual=" + linkmanual + ", linkvisualizacao=" + linkvisualizacao + ", suporte=" + suporte + ", corfundo=" + corfundo + ", bovespart=" + bovespaRT + ", bmfrt=" + bmfRT + ", rthost=" + rthost + ", rtport=" + rtport + ", deploy=CORRETORA, title=" + titulo + ", soaurl=" + soaurl + ",sessid=" + sessId + " , usr=" + codCliente + "\"");
                 Response.Write("<param name=\"onError\" value=\"onSilverlightError\" />");
                 Response.Write("<param name=\"windowless\" value=\"true\"/>");
                 Response.Write("<param name=\"background\" value=\"white\" />");
